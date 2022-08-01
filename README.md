@@ -13,4 +13,4 @@ Audiencia objetivo:
 
 
 Azul Orellanos: 28 años - Lic. en Admin - Analista de Risk IT - Diseñadora de CVs.
-
+Miguel Donatelli: 55 años - Ing. Agrónomo - Economista. 
