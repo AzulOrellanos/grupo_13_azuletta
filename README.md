@@ -28,8 +28,8 @@ https://cvonline.me/es/curriculum-online --> Información detallada & Dinamismo.
 
 http://www.proyectarrhh.com.ar/armado-y-correccion-de-cv/ --> Simplicidad.
 
-https://www.cvmaker.com.ar/cv-ejemplos?gclid=EAIaIQobChMIqqPw2Omm-QIVC0eRCh3Dow4PEAAYASAAEgKA8_D_BwE --> Popularidad & Facilidad de uso.
+https://www.cvmaker.com.ar/ --> Popularidad & Facilidad de uso.
 
-https://www.cvwizard.es/?gclid=EAIaIQobChMIsJie6emm-QIV0O2zCh2Z5QhXEAAYAyAAEgKii_D_BwE --> Valoraciones de usuarios.
+https://www.cvwizard.es/ --> Valoraciones de usuarios.
 
 
