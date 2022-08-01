@@ -11,4 +11,6 @@ Audiencia objetivo:
 4. Personas en búsqueda de un cambio laboral con experiencia previa.
 
 
-Hola
+
+Azul Orellanos: 28 años - Lic. en Admin - Analista de Risk IT - Diseñadora de CVs.
+
