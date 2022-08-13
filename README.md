@@ -2,7 +2,7 @@
 
 Nombre del emprendimiento: Azuletta
 
-Objetivo: Ayudar a las personas a conseguir empleo a través de la creación de Curriculums Vitae y la preparación de entrevistas. 
+Objetivo: Ayudar aquellas personas en busca de trabajo a través de la creación de un Curriculum Vitae profesional y la preparación de entrevistas, mejorando sus posiblidades de inserción laboral.
 
 Audiencia objetivo: 
 1. Personas en búsqueda de un empleo. 
@@ -26,7 +26,7 @@ https://www.onlinecv.es/ --> Diseño innovador & Preciso.
 
 https://cvonline.me/es/curriculum-online --> Información detallada & Dinamismo.
 
-http://www.proyectarrhh.com.ar/armado-y-correccion-de-cv/ --> Simplicidad.
+http://www.proyectarrhh.com.ar/ --> Simplicidad.
 
 https://www.cvmaker.com.ar/ --> Popularidad & Facilidad de uso.
 
