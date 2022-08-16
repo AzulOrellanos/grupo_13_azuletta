@@ -22,6 +22,8 @@ Miguel Donatelli: 55 años - Ing. Agrónomo - Economista.
 
 Matias René: 23 años - Estudiante Programacion Web.
 
+Marcos Sanchez
+
 .
 
 🔮 **Inspiración:**
