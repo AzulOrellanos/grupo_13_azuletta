@@ -1,3 +1,250 @@
+* {
+    margin: 0px;
+}
+
 body{
-    background-color: aqua;
+    background-color: #e0e0e2;
+    font-family:'Trebuchet MS';
+}
+
+body header section.header-bar {
+    background-color: #e0e0e2;
+    border: solid 1px #e0e0e2;
+}
+
+body header section img{
+    margin: 3px;
+    width: 80px;
+    height: 60px;
+}
+
+header section div.logo-name{
+    display: block;
+    text-align: center;
+
+}
+
+header div.logo-name h3{
+    display: block;
+}
+
+header section nav {
+    margin: 20px 0px;
+}
+
+header section nav ul{
+    list-style-type: none;
+    padding: 0%;
+    width: 100%;
+}
+
+header section nav ul li{
+    color: #0a2342;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+header section nav ul li a{
+    text-decoration: none;
+}
+
+/* SECTION 1 */
+
+main section.section-1{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+main section.section-1 img{
+    display: block;
+    margin: 5% auto;
+    width: 40%;
+    height: 40%;
+    border: 1px solid #0a2342;
+    border-radius: 20px;
+}
+
+main section.section-1 h3{
+    text-align: center;
+    color: #0a2342 ;
+}
+
+main section.section-1 p{
+    padding: 3% 10%;
+    text-align: center;
+    color: #0a2342 ;
+}
+
+main section.section-1 div.boton button{
+    color: white;
+    background-color: #0a2342;
+    border: #0a2342 2px solid;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+/* SECTION 2 */
+
+main section.section-2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+main section.section-2 h3{
+    text-align: center;
+    color: #0a2342 ;
+}
+
+main section.section-2 p{
+    padding: 3% 10%;
+    text-align: center;
+    color: #0a2342 ;
+}
+
+/* SECTION 3 */
+
+main section.section-3{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+main section.section-3 h3{
+    text-align: center;
+    color: #0a2342 ;
+}
+
+main section.section-3 p{
+    padding: 3%;
+    text-align: center;
+    color: #0a2342 ;
+}
+
+main section.section-3 div.paso-1{
+    background-color: rgb(246, 246, 246);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+main section.section-3 div.paso-1 p.numero-1{
+    color: white;
+    font-size: 25px;
+    background-color: #0a2342;
+    border: #0a2342 1px solid;
+    border-radius: 50%;
+    width: 15%;
+    margin: 0px auto;
+}
+
+main section.section-3 div.paso-2{
+    background-color: rgb(246, 246, 246);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+main section.section-3 div.paso-2 p.numero-2{
+    color: white;
+    font-size: 25px;
+    background-color: #0a2342;
+    border: #0a2342 1px solid;
+    border-radius: 50%;
+    width: 15%;
+    margin: 0px auto;
+}
+
+main section.section-3 div.paso-3{
+    background-color: rgb(246, 246, 246);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+main section.section-3 div.paso-3 p.numero-3{
+    color: white;
+    font-size: 25px;
+    background-color: #0a2342;
+    border: #0a2342 1px solid;
+    border-radius: 50%;
+    width: 15%;
+    margin: 0px auto;
+}
+
+/* SECTION 4 */
+
+main section.section-4{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+main section.section-4 h3{
+    text-align: center;
+    color: #0a2342 ;
+}
+
+main section.section-4 h4{
+    margin: 10px 0px;
+    text-align: center;
+    color: #0a2342 ;
+}
+
+main section.section-4 p{
+    padding: 3%;
+    text-align: center;
+    color: #0a2342 ;
+}
+
+main section.section-4 div{
+    background-color: rgb(246, 246, 246);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+main section.section-4 div p.foto-valoracion{
+    color: white;
+    font-size: 25px;
+    background-color: #755497;
+    border: #755497 1px solid;
+    border-radius: 50%;
+    width: 15%;
+    margin: 0px auto;
+}
+
+/* FOOTER */
+
+footer div p{
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5% 0%;
+    background-color: #e0e0e2;
+    border-top: grey 2px solid;
+}
+
+footer div.foto-redes{
+    margin: 20px 0px;
+    text-align: center;
 }
