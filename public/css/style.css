@@ -61,9 +61,9 @@ main section.section-1{
 main section.section-1 img{
     display: block;
     margin: 5% auto;
-    width: 40%;
-    height: 40%;
-    border: 1px solid #0a2342;
+    width: 30%;
+    height: 30%;
+    border: 2px solid #b3b3b3;
     border-radius: 20px;
 }
 
@@ -73,7 +73,7 @@ main section.section-1 h3{
 }
 
 main section.section-1 p{
-    padding: 3% 10%;
+    padding: 5% 10%;
     text-align: center;
     color: #0a2342 ;
 }
@@ -84,6 +84,7 @@ main section.section-1 div.boton button{
     border: #0a2342 2px solid;
     border-radius: 5px;
     padding: 1%;
+    margin: 5px 0px;
 }
 
 /* SECTION 2 */
@@ -124,9 +125,10 @@ main section.section-3 p{
 
 main section.section-3 div.paso-1{
     background-color: rgb(246, 246, 246);
-    border: 2px solid black;
+    border: 2px solid #b3b3b3;
     border-radius: 10px;
-    width: 60%;
+    width: 250px;
+    height: 150px;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: auto;
@@ -146,9 +148,10 @@ main section.section-3 div.paso-1 p.numero-1{
 
 main section.section-3 div.paso-2{
     background-color: rgb(246, 246, 246);
-    border: 2px solid black;
+    border: 2px solid #b3b3b3;
     border-radius: 10px;
-    width: 60%;
+    width: 250px;
+    height: 150px;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: auto;
@@ -168,9 +171,10 @@ main section.section-3 div.paso-2 p.numero-2{
 
 main section.section-3 div.paso-3{
     background-color: rgb(246, 246, 246);
-    border: 2px solid black;
+    border: 2px solid #b3b3b3;
     border-radius: 10px;
-    width: 60%;
+    width: 250px;
+    height: 150px;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: auto;
@@ -214,7 +218,7 @@ main section.section-4 p{
 
 main section.section-4 div{
     background-color: rgb(246, 246, 246);
-    border: 2px solid black;
+    border: 2px solid #b3b3b3;
     border-radius: 10px;
     width: 60%;
     margin-top: 5%;
@@ -342,21 +346,99 @@ footer div.foto-redes{
          justify-content: space-between;
      }
      
-     header section nav ul li{
- 
+     header section nav ul li.ingresar a{
+        background-color: #490b88;
+        color: white;
+        border: 1px solid #490b88;
+        border-radius: 10px;
+        padding: 5px;
      }
      
-     header section nav ul li a{
-         
+     header section nav ul li.registrarse a{
+        background-color: #490b88;
+        color: white;
+        border: 1px solid #490b88;
+        border-radius: 10px;
+        padding: 5px;
+     }
+
+     header section nav ul li.registrarse{
+        margin-right: 3%;
      }
 
 
     header section div.burger{
         display: none;
     }
-    
-}
 
+    main section.section-1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    main section.section-1 img{
+        margin: 0px;
+        width: 35%;
+    }
+
+    main section.section-1 div.description-1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+    }
+
+    main section.section-2 p{
+        margin: 0% 20%;
+    }
+
+    main section.section-3{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    main section.section-3 div.pasos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 5% 0%;
+    }
+
+    main section.section-3 div.paso-1{
+        width: 230px;
+        margin: 0%;
+        padding: 2%;
+    }
+
+    main section.section-3 div.paso-2{
+        width: 230px;
+        margin: 0%;
+        padding: 2%;
+    }
+
+    main section.section-3 div.paso-3{
+        width: 230px;
+        margin: 0%;
+        padding: 2%;
+    }
+
+    main section.section-4{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    main section.section-4 div.valoracion{
+        width: 20%;
+        padding: 3%;
+    }
+}
 /* DESKTOP */
 
 @media (min-width: 1269px){
