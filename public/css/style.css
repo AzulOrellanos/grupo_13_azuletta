@@ -13,7 +13,7 @@ body header section.header-bar {
 }
 
 body header section img{
-    margin: 3px;
+    margin: 0px 10px;
     width: 80px;
     height: 60px;
 }
@@ -25,7 +25,9 @@ header section div.logo-name{
 }
 
 header div.logo-name h3{
+    color: #490b88;
     display: block;
+    margin: 0px 5px;
 }
 
 header section nav {
@@ -247,4 +249,116 @@ footer div p{
 footer div.foto-redes{
     margin: 20px 0px;
     text-align: center;
+}
+
+/* MEDIAS QUERIES */
+
+/* CELULAR */
+
+@media (min-width: 361px){
+
+    body header section.header-bar {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+    header section div.logo-name{
+        flex-grow: 0.2;
+    }
+    
+
+}
+
+/* TABLET */
+
+@media (min-width: 672px){
+    
+}
+
+/* DESKTOP MAS CHICO */
+
+@media (max-width: 990px){
+
+    header section nav {
+        display: none
+    }
+
+
+    header section div.burger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #490b88;
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        margin-right: 30px;
+        margin-top: 3%;
+        padding: 0.5%;
+    }
+
+    .burger-bars{
+        width: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+    header section div.logo-name{
+        margin: 10px;
+    }
+
+
+}
+
+
+@media (min-width: 990px){
+
+    body header section.header-bar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+     }
+ 
+     header section div.logo-name{
+         flex-grow: 0.2;
+     }
+ 
+ 
+     header section nav {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         align-items: center;
+         flex-grow: 0.8;
+     }
+     
+     header section nav ul{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+     
+     header section nav ul li{
+ 
+     }
+     
+     header section nav ul li a{
+         
+     }
+
+
+    header section div.burger{
+        display: none;
+    }
+    
+}
+
+/* DESKTOP */
+
+@media (min-width: 1269px){
+    
 }
