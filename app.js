@@ -23,7 +23,6 @@ app.get('/creatucv', (req, res) => {
 
 
 
-
 app.listen(3100, () => {
     console.log('Servidor levantado en el puerto 3100');
 });
