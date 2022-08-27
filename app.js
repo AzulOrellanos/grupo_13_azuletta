@@ -21,7 +21,27 @@ app.get('/creatucv', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/creatucv.html'))
 });
 
+app.listen(3100, () => {
+    console.log('Servidor levantado en el puerto 3100');
+});
 
+// Se obtiene la vista de LOGIN
+
+app.get('/login', (req, res) => {
+
+    res.sendFile(path.join(__dirname, '/views/login.html'))
+});
+
+app.listen(3100, () => {
+    console.log('Servidor levantado en el puerto 3100');
+});
+
+// Se obtiene la vista de REGISTRARSE
+
+app.get('/registrarse', (req, res) => {
+
+    res.sendFile(path.join(__dirname, '/views/registrarse.html'))
+});
 
 app.listen(3100, () => {
     console.log('Servidor levantado en el puerto 3100');
