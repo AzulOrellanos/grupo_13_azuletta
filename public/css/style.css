@@ -240,6 +240,213 @@ main section.section-4 div p.foto-valoracion{
 
 /* CREA TU CV */
 
+/* CV SILVER*/
+
+body main section.silver {
+    margin: 50px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body main section.silver div.titulo-silver
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    font-size:30px ;
+    text-align: center;
+    font-style: bold;
+    color:#490b88;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    
+}
+
+body main section.silver div.description-silver
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#755497;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+body main section.silver div.price-silver
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    font-size: 30px;
+    color:#028090;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+
+}
+
+body main section.silver div.bottom-silver
+    {
+    background-color:  #e2e0e0;
+    font-family:'Trebuchet MS';
+    margin-top: 10px;
+    width: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+main section.silver img{
+    background-color: rgb(246, 246, 246);
+    border: 0px solid #b3b3b3;
+    border-radius: 0px;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 12px;
+}
+
+/* CV GOLD */
+
+body main section.gold {
+    margin: 50px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body main section.gold div.titulo-gold
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    font-size:30px ;
+    text-align: center;
+    font-style: bold;
+    color:#490b88;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    
+}
+
+body main section.gold div.description-gold
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#755497;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+body main section.gold div.price-gold
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    font-size: 30px;
+    color:#028090;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+
+}
+
+body main section.gold div.bottom-gold
+    {
+    background-color:  #e2e0e0;
+    font-family:'Trebuchet MS';
+    margin-top: 10px;
+    width: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+main section.gold img{
+    background-color: rgb(246, 246, 246);
+    border: 0px solid #b3b3b3;
+    border-radius: 0px;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 12px;
+}
+
+/* CV BLACK */
+
+body main section.black {
+    margin: 50px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body main section.black div.titulo-black
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    font-size:30px ;
+    text-align: center;
+    font-style: bold;
+    color:#490b88;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    
+}
+
+body main section.black div.description-black
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#755497;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+body main section.black div.price-black
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    font-size: 30px;
+    color:#028090;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+
+}
+
+body main section.black div.bottom-black
+    {
+    background-color:  #e2e0e0;
+    font-family:'Trebuchet MS';
+    margin-top: 10px;
+    width: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+main section.black img{
+    background-color: rgb(246, 246, 246);
+    border: 0px solid #b3b3b3;
+    border-radius: 0px;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 12px;
+}
+
 /* CARRITO */
 
 /* LOGIN */
