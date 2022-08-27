@@ -239,6 +239,33 @@ main section.section-4 div p.foto-valoracion{
 
 /* CREA TU CV */
 
+/* CV SILVER*/
+
+body main section.silver div.titulo-silver
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#490b88
+
+}
+
+body main section.silver div.description-silver
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#755497 
+
+}
+
+body main section.silver div.price-silver
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#028090
+
+}
+
+
 main section.silver img{
     background-color: rgb(246, 246, 246);
     border: 1px solid #b3b3b3;
@@ -251,6 +278,32 @@ main section.silver img{
     padding: 0%;
 }
 
+/* CV GOLD */
+
+body main section.gold div.titulo-gold
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#490b88
+
+}
+
+body main section.gold div.description-gold
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#755497 
+
+}
+
+body main section.gold div.price-gold
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#028090
+
+}
+
 main section.gold img{
     background-color: rgb(246, 246, 246);
     border: 1px solid #b3b3b3;
@@ -261,6 +314,32 @@ main section.gold img{
     margin-left: 130px;
     margin-right: 100px;
     padding: 0%;
+}
+
+/* CV BLACK */
+
+body main section.black div.titulo-black
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#490b88
+
+}
+
+body main section.black div.description-black
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#755497 
+
+}
+
+body main section.black div.price-black
+    {
+    background-color:  #e0e0e2;
+    font-family:'Trebuchet MS';
+    color:#028090
+
 }
 
 main section.black img{
