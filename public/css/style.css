@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -336,7 +337,6 @@ footer div.foto-redes{
      header section div.logo-name{
          flex-grow: 0.2;
      }
- 
  
      header section nav {
          display: flex;
