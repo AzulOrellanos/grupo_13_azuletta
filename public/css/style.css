@@ -485,11 +485,6 @@ main section div.producto-silver h4{
     
 }
 
-main section div.producto-silver ul{
-
-    padding-left: 13%;
-}
-
 main section div.producto-silver ul li{
     font-size: 13px;
     margin: 1px 0px;
@@ -525,10 +520,6 @@ main section div.producto-gold h4{
     
 }
 
-main section div.producto-gold ul{
-
-    padding-left: 13%;
-}
 
 main section div.producto-gold ul li{
     font-size: 13px;
@@ -564,10 +555,6 @@ main section div.producto-black h4{
     
 }
 
-main section div.producto-black ul{
-
-    padding-left: 13%;
-}
 
 main section div.producto-black ul li{
     font-size: 13px;
@@ -793,6 +780,8 @@ footer div.foto-redes{
         flex-direction: row;
         justify-content: space-around;
         padding: 2%;
+        width: 90%;
+        margin: 5px auto;
     }
 
 
@@ -821,6 +810,8 @@ footer div.foto-redes{
         flex-direction: row;
         justify-content: space-around;
         padding: 2%;
+        width: 90%;
+        margin: 5px auto;
 
     }
 
@@ -833,6 +824,8 @@ footer div.foto-redes{
         flex-direction: row;
         justify-content: space-around;
         padding: 2%;
+        width: 90%;
+        margin: 5px auto;
 
     }
 
@@ -862,6 +855,34 @@ footer div.foto-redes{
 
 @media (min-width: 672px){
 
+    /* CARRITO */
+
+    /* cv silver */
+
+    main section.carrito div.producto-silver{
+
+        width: 70%;
+        
+    }
+        
+
+    /* cv gold */
+
+    main section.carrito div.producto-gold{
+
+         width: 70%;
+    
+    }
+    
+    
+    /* cv black */
+    
+    main section.carrito div.producto-black{
+
+         width: 70%;
+    
+    }
+
     .descripcion-producto{
 
         flex-direction: row;
@@ -878,7 +899,7 @@ footer div.foto-redes{
     .precio-producto{
 
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         width: 10%;
         padding: 2% 0%;
@@ -1041,6 +1062,99 @@ footer div.foto-redes{
         width: 20%;
         padding: 3%;
     }
+
+    /* CARRITO */
+
+    main section.carrito h3{
+        font-size: 25px;
+        margin: 25px
+    }
+
+    main section.carrito div.producto-silver{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1%;
+        width: 70%;
+        margin: 5px auto;
+    }
+
+    main section div.producto-silver img{
+        width: 180px;
+        height: 180px;
+    }
+
+    main section div.producto-silver h4{
+        font-size: 23px;
+    }
+
+    main section div.producto-silver div.description-column ul li{
+        font-size: 17px;
+    }
+
+    main section.carrito div.producto-gold{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1%;        
+        width: 70%;
+        margin: 5px auto;
+    }
+
+    main section div.producto-gold img{
+        width: 180px;
+        height: 180px;
+    }
+
+    main section div.producto-gold div.description-column ul li{
+        font-size: 17px;
+    }
+
+    main section div.producto-gold h4{
+        font-size: 23px;
+    }
+
+    main section.carrito div.producto-black{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1%;
+        width: 70%;
+        margin: 5px auto;
+    }
+
+    main section div.producto-black img{
+        width: 180px;
+        height: 180px;
+    }
+
+    main section div.producto-black h4{
+        font-size: 23px;
+    }
+
+    main section div.producto-black div.description-column ul li{
+
+        font-size: 17px;
+    }
+
+    main section div.producto-silver div.precio-producto p{
+        font-weight: bold;
+    }
+
+
+    main section div.producto-gold div.precio-producto p{
+        font-weight: bold;
+    }
+
+
+    main section div.producto-black div.precio-producto p{
+        font-weight: bold;
+    }
+
+
 
 }
 /* DESKTOP */
