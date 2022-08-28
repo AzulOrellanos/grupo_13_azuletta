@@ -447,7 +447,139 @@ main section.black img{
     padding: 12px;
 }
 
+
+
+
+
 /* CARRITO */
+
+
+
+
+main section.carrito h3{
+    text-align: center;
+    margin: 15px 0px;
+    color: #473383;
+}
+
+/* CV SILVER */
+
+main section div.producto-silver{
+    
+    margin: 20px 10px;
+    border: 2px solid #b3b3b3;
+    background-color: #fff;
+}
+
+main section div.producto-silver img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 20px;
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+}
+
+main section div.producto-silver h4{
+
+    padding: 5%;
+    
+}
+
+main section div.producto-silver ul{
+
+    padding-left: 13%;
+}
+
+main section div.producto-silver ul li{
+    font-size: 13px;
+    margin: 1px 0px;
+}
+
+
+main section div.producto-silver div p.eliminar{
+    
+    color: red;
+}
+
+
+/* CV GOLD */
+
+main section div.producto-gold{
+    
+    margin: 20px 10px;
+    border: 2px solid #b3b3b3;
+    background-color: #fff;
+}
+
+main section div.producto-gold img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 20px;
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+}
+
+main section div.producto-gold h4{
+
+    padding: 5%;
+    
+}
+
+main section div.producto-gold ul{
+
+    padding-left: 13%;
+}
+
+main section div.producto-gold ul li{
+    font-size: 13px;
+    margin: 1px 0px;
+}
+
+
+main section div.producto-gold div p.eliminar{
+    
+    color: red;
+}
+
+/* CV BLACK */
+
+main section div.producto-black{
+    
+    margin: 20px 10px;
+    border: 2px solid #b3b3b3;
+    background-color: #fff;
+}
+
+main section div.producto-black img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 20px;
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+}
+
+main section div.producto-black h4{
+
+    padding: 5%;
+    
+}
+
+main section div.producto-black ul{
+
+    padding-left: 13%;
+}
+
+main section div.producto-black ul li{
+    font-size: 13px;
+    margin: 1px 0px;
+}
+
+
+main section div.producto-black div p.eliminar{
+    
+    color: red;
+}
+
 
 /* LOGIN */
 
@@ -567,12 +699,112 @@ footer div.foto-redes{
         flex-grow: 0.2;
     }
     
+    /* CARRITO */
 
+    main section.carrito{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /* cv silver */
+
+    main section.carrito div.producto-silver{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2%;
+    }
+
+
+    .descripcion-producto{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 55%;
+    }
+
+
+    .precio-producto{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
+        padding: 2% 0%;
+    }
+
+    /* cv gold */
+
+     main section.carrito div.producto-gold{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2%;
+
+    }
+
+
+    /* cv black */
+
+    main section.carrito div.producto-black{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2%;
+
+    }
+
+    /* total -finalizar compra */
+
+    main section.carrito div.total-finalizar{
+        text-align: center;
+    }
+
+    main section.carrito div.total-finalizar p{
+        font-size: 19px;
+        margin: 15px 0px;
+    }
+
+    main section.carrito div.total-finalizar button{
+        margin: 15px 0px;
+        background-color: #473383;
+        border: #473383 2px solid;
+        border-radius: 10px;
+        padding: 10px;
+        color: white;
+    }
+    
 }
 
 /* TABLET */
 
 @media (min-width: 672px){
+
+    .descripcion-producto{
+
+        flex-direction: row;
+        width: 45%;
+    }
+
+    .description-column{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .precio-producto{
+
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 10%;
+        padding: 2% 0%;
+    }
     
 }
 
@@ -731,6 +963,7 @@ footer div.foto-redes{
         width: 20%;
         padding: 3%;
     }
+
 }
 /* DESKTOP */
 
