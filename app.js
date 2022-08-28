@@ -40,3 +40,11 @@ app.get('/registrarse', (req, res) => {
 
     res.sendFile(path.join(__dirname, '/views/registrarse.html'))
 });
+
+// Se obtiene la vista del CARRITO
+
+app.get('/carrito', (req, res) => {
+
+    res.sendFile(path.join(__dirname, '/views/carrito.html'))
+});
+
