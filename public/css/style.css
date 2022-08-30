@@ -111,11 +111,11 @@ main section.section-2 p{
 /* SECTION 3 */
 
 main section.section-3{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 10% auto;
 }
 
 main section.section-3 h3{
+    margin: 15px 0px 40px;
     text-align: center;
     color: #0a2342 ;
 }
@@ -141,10 +141,11 @@ main section.section-3 div.paso-1{
 main section.section-3 div.paso-1 p.numero-1{
     color: white;
     font-size: 25px;
+    padding: 5%;
     background-color: #0a2342;
     border: #0a2342 1px solid;
     border-radius: 50%;
-    width: 15%;
+    width: 50px;
     margin: 0px auto;
 }
 
@@ -163,10 +164,11 @@ main section.section-3 div.paso-2{
 main section.section-3 div.paso-2 p.numero-2{
     color: white;
     font-size: 25px;
+    padding: 5%;
     background-color: #0a2342;
     border: #0a2342 1px solid;
     border-radius: 50%;
-    width: 15%;
+    width: 50px;
     margin: 0px auto;
 }
 
@@ -185,10 +187,11 @@ main section.section-3 div.paso-3{
 main section.section-3 div.paso-3 p.numero-3{
     color: white;
     font-size: 25px;
+    padding: 5%;
     background-color: #0a2342;
     border: #0a2342 1px solid;
     border-radius: 50%;
-    width: 15%;
+    width: 50px;
     margin: 0px auto;
 }
 
@@ -1024,7 +1027,15 @@ footer div.foto-redes{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
     }
+
+    main section.section-3 p{
+        margin-top: 20px;
+    }
+    
 
     main section.section-3 div.pasos{
         display: flex;
@@ -1032,24 +1043,46 @@ footer div.foto-redes{
         flex-direction: row;
         justify-content: space-around;
         margin: 5% 0%;
+        width: 100%;
     }
 
     main section.section-3 div.paso-1{
+        position: relative;
         width: 230px;
-        margin: 0%;
+        margin: 0% 2%;
         padding: 2%;
+    }
+
+    section.section-3 div.paso-1 p.numero-1{
+        position: absolute;
+        left: 90px;
+        bottom: 160px;
     }
 
     main section.section-3 div.paso-2{
+        position: relative;
         width: 230px;
-        margin: 0%;
+        margin: 0% 2%;
         padding: 2%;
     }
 
+    section.section-3 div.paso-2 p.numero-2{
+        position: absolute;
+        left: 90px;
+        bottom: 160px;
+    }
+
     main section.section-3 div.paso-3{
+        position: relative;
         width: 230px;
-        margin: 0%;
+        margin: 0% 2%;
         padding: 2%;
+    }
+
+    section.section-3 div.paso-3 p.numero-3{
+        position: absolute;
+        left: 90px;
+        bottom: 160px;
     }
 
     main section.section-4{
