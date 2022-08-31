@@ -653,36 +653,33 @@ main section div.producto-black div p.eliminar{
 /* LOGIN */
 
 .login-box {
-    width: 320px;
-    height: 420px;
-    background: rgb(148, 140, 140);
-    color: #fff;
+    width: 369px;
+    height: 446px;
+    background: white;
+    color: #0a2342;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-    border-radius: 10px;
+    padding: 64px 59px;
+    border-radius: 35px;
+    border: 2px solid #473383;
 }
 
 .login-box .avatar {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
     position: absolute;
     top: -50px;
     left: calc(50% - 50px);
     background-color: #fff;
-    border: 1px solid #028090;
     padding: 5px;
     }
 
 .login-box h1 {
-    margin: 0;
-    padding: 0 0 20px;
+    margin: 2px 0px 30px;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .login-box label {
@@ -695,16 +692,17 @@ main section div.producto-black div p.eliminar{
 .login-box input {
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 3px;
 }
 
 .login-box input[type="text"],
 .login-box input[type="password"] {
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #0a2342;
     background: transparent;
     outline: none;
     height: 40px;
-    color: #fff;
+    color: #490b88;
     font-size: 16px;
 }
 
@@ -720,30 +718,31 @@ main section div.producto-black div p.eliminar{
 
 .login-box a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 20px;
-    color: darkgrey;
+    color: #0a2342;
 }
 
 .login-box a:hover {
-    color: #fff;
+    color: #530086;
 }
 
 /* REGISTRO */
 
 .registro {
-    width: 350px;
-    height: 460px;
-    background: rgb(148, 140, 140);
+    width: 525px;
+    height: 550px;
+    background-color: white; 
     color: #fff;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-    border-radius: 10px;
+    padding: 70px 50px;
+    border: 2px solid #473383;
+    border-radius: 35px;
 }
+
 
 .registro .avatar {
     width: 100px;
@@ -753,15 +752,14 @@ main section div.producto-black div p.eliminar{
     top: -50px;
     left: calc(50% - 50px);
     background-color: #fff;
-    border: 1px solid #028090;
     padding: 5px;
     }
 
 .registro h1 {
-    margin: 0;
     padding: 0 0 20px;
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
+    color: #0a2342;
 }
 
 .registro label {
@@ -780,33 +778,45 @@ main section div.producto-black div p.eliminar{
 .registro input[type="email"],
 .registro input[type="password"] {
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #0a2342;
     background: transparent;
     outline: none;
     height: 30px;
-    color: #fff;
+    color: #490b88;
     font-size: 16px;
+    width: 100%;
 }
 
-.registro input[type="submit"] {
+.registro form label{
+    margin: 3px 0px;
+    color: #0a2342;
+}
+
+.registro div input[type="submit"] {
     border: none;
-    outline: none;
     height: 35px;
     background: #473383;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
+    width: 70%;
+    margin: 10px 0px 20px;
+    
+}
+
+.registro div{
+    text-align: center;
 }
 
 .registro a {
     text-decoration: none;
     font-size: 14px;
     line-height: 20px;
-    color: darkgrey;
+    color: #0a2342;
 }
 
 .registro a:hover {
-    color: #fff;
+    color: #530086;
 }
 
 
