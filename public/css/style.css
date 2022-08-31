@@ -1,17 +1,18 @@
 * {
     margin: 0px;
     box-sizing: border-box;
+
 }
 
 body{
-    background-color: #e0e0e2;
+
+    background: #FFFFFF;
+    background: -webkit-radial-gradient(top left, #FFFFFF, #D5D0E3);
+    background: -moz-radial-gradient(top left, #FFFFFF, #D5D0E3);
+    background: radial-gradient(to bottom right, #FFFFFF, #D5D0E3);
     font-family:'Trebuchet MS';
 }
 
-body header section.header-bar {
-    background-color: #e0e0e2;
-    border: solid 1px #e0e0e2;
-}
 
 body header section img{
     margin: 0px 10px;
@@ -128,9 +129,9 @@ main section.section-3 p{
 
 main section.section-3 div.paso-1{
     background-color: rgb(246, 246, 246);
-    border: 2px solid #b3b3b3;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border: 2px solid #e3dafa;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #a798ce;
     width: 250px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -140,21 +141,23 @@ main section.section-3 div.paso-1{
 }
 
 main section.section-3 div.paso-1 p.numero-1{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     padding: 5%;
-    background-color: #0a2342;
-    border: #0a2342 1px solid;
+    background-color: #fbfbfb;
+    border: 2px solid #e3dafa;
+    box-shadow: 0px 0px 5px #a798ce;
     border-radius: 50%;
     width: 50px;
     margin: 0px auto;
+    font-weight: bold;
 }
 
 main section.section-3 div.paso-2{
     background-color: rgb(246, 246, 246);
-    border: 2px solid #b3b3b3;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border: 2px solid #e3dafa;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #a798ce;
     width: 250px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -164,21 +167,23 @@ main section.section-3 div.paso-2{
 }
 
 main section.section-3 div.paso-2 p.numero-2{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     padding: 5%;
-    background-color: #0a2342;
-    border: #0a2342 1px solid;
+    background-color: #fbfbfb;
+    border: 2px solid #e3dafa;
+    box-shadow: 0px 0px 5px #a798ce;
     border-radius: 50%;
     width: 50px;
     margin: 0px auto;
+    font-weight: bold;
 }
 
 main section.section-3 div.paso-3{
     background-color: rgb(246, 246, 246);
-    border: 2px solid #b3b3b3;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border: 2px solid #e3dafa;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #a798ce;
     width: 250px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -188,14 +193,16 @@ main section.section-3 div.paso-3{
 }
 
 main section.section-3 div.paso-3 p.numero-3{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     padding: 5%;
-    background-color: #0a2342;
-    border: #0a2342 1px solid;
+    background-color: #fbfbfb;
+    border: 2px solid #e3dafa;
+    box-shadow: 0px 0px 5px #a798ce;
     border-radius: 50%;
     width: 50px;
     margin: 0px auto;
+    font-weight: bold;
 }
 
 /* SECTION 4 */
@@ -755,8 +762,7 @@ footer div p{
     margin-left: 5%;
     margin-right: 5%;
     padding: 5% 0%;
-    background-color: #e0e0e2;
-    border-top: grey 2px solid;
+    border-top: #a798ce 2px solid;
 }
 
 footer div.foto-redes{
@@ -884,7 +890,8 @@ footer div.foto-redes{
         justify-content: center;
         align-items: center;
         flex-grow: 0.3;
-        color: #473383;
+        padding: 5%;
+        font-size: 23px;
     }
 }
 
@@ -1229,6 +1236,39 @@ footer div.foto-redes{
     }
 
 
+    main section.section-3 div.paso-1:hover{
+        border: 2px solid #aca1cb;
+        box-shadow: 0px 0px 10px #aca1cb;
+    }
+    
+    main section.section-3 div.paso-1:hover p.numero-1{
+        border: 2px solid #aca1cb;
+        box-shadow: 0px 0px 10px #aca1cb;
+    }
+
+    main section.section-3 div.paso-2:hover{
+        border: 2px solid #aca1cb;
+        box-shadow: 0px 0px 10px #aca1cb;
+    }
+    
+    main section.section-3 div.paso-2:hover p.numero-2{
+        border: 2px solid #aca1cb;
+        box-shadow: 0px 0px 10px #aca1cb;
+    }
+    
+    main section.section-3 div.paso-3:hover{
+        border: 2px solid #aca1cb;
+        box-shadow: 0px 0px 10px #aca1cb;
+    }
+    
+    main section.section-3 div.paso-3:hover p.numero-3{
+        border: 2px solid #aca1cb;
+        box-shadow: 0px 0px 10px #aca1cb;
+    }
+    
+    
+
+
 
 }
 
@@ -1277,4 +1317,6 @@ footer div.foto-redes{
         bottom: 170px;
 
     }
+
+
 }
