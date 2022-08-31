@@ -141,7 +141,7 @@ main section.section-3 div.paso-1{
 }
 
 main section.section-3 div.paso-1 p.numero-1{
-    color: rgb(0, 0, 0);
+    color: #0a2342;
     font-size: 25px;
     padding: 5%;
     background-color: #fbfbfb;
@@ -167,7 +167,7 @@ main section.section-3 div.paso-2{
 }
 
 main section.section-3 div.paso-2 p.numero-2{
-    color: rgb(0, 0, 0);
+    color: #0a2342;
     font-size: 25px;
     padding: 5%;
     background-color: #fbfbfb;
@@ -193,7 +193,7 @@ main section.section-3 div.paso-3{
 }
 
 main section.section-3 div.paso-3 p.numero-3{
-    color: rgb(0, 0, 0);
+    color: #0a2342;
     font-size: 25px;
     padding: 5%;
     background-color: #fbfbfb;
@@ -344,8 +344,7 @@ body main section.silver {
 
 body main section.silver div.titulo-silver
     {
-    background-color:  #e0e0e2;
-    font-family:'Trebuchet MS';
+
     font-size:30px ;
     text-align: center;
     font-style: bold;
@@ -358,8 +357,7 @@ body main section.silver div.titulo-silver
 
 body main section.silver div.description-silver
     {
-    background-color:  #e0e0e2;
-    font-family:'Trebuchet MS';
+
     color:#755497;
     margin-left: 100px;
     margin-right: 100px;
@@ -369,8 +367,7 @@ body main section.silver div.description-silver
 
 body main section.silver div.price-silver
     {
-    background-color:  #e0e0e2;
-    font-family:'Trebuchet MS';
+
     font-size: 30px;
     color:#028090;
     margin-left: 100px;
@@ -381,8 +378,7 @@ body main section.silver div.price-silver
 
 body main section.silver div.bottom-silver
     {
-    background-color:  #e2e0e0;
-    font-family:'Trebuchet MS';
+
     margin-top: 10px;
     width: center;
     margin-left: 100px;
@@ -413,8 +409,7 @@ body main section.gold {
 
 body main section.gold div.titulo-gold
     {
-    background-color:  #e0e0e2;
-    font-family:'Trebuchet MS';
+
     font-size:30px ;
     text-align: center;
     font-style: bold;
@@ -427,8 +422,7 @@ body main section.gold div.titulo-gold
 
 body main section.gold div.description-gold
     {
-    background-color:  #e0e0e2;
-    font-family:'Trebuchet MS';
+
     color:#755497;
     margin-left: 100px;
     margin-right: 100px;
@@ -438,8 +432,7 @@ body main section.gold div.description-gold
 
 body main section.gold div.price-gold
     {
-    background-color:  #e0e0e2;
-    font-family:'Trebuchet MS';
+
     font-size: 30px;
     color:#028090;
     margin-left: 100px;
@@ -450,8 +443,7 @@ body main section.gold div.price-gold
 
 body main section.gold div.bottom-gold
     {
-    background-color:  #e2e0e0;
-    font-family:'Trebuchet MS';
+
     margin-top: 10px;
     width: center;
     margin-left: 100px;
@@ -482,8 +474,7 @@ body main section.black {
 
 body main section.black div.titulo-black
     {
-    background-color:  #e0e0e2;
-    font-family:'Trebuchet MS';
+
     font-size:30px ;
     text-align: center;
     font-style: bold;
@@ -496,8 +487,7 @@ body main section.black div.titulo-black
 
 body main section.black div.description-black
     {
-    background-color:  #e0e0e2;
-    font-family:'Trebuchet MS';
+
     color:#755497;
     margin-left: 100px;
     margin-right: 100px;
@@ -507,8 +497,7 @@ body main section.black div.description-black
 
 body main section.black div.price-black
     {
-    background-color:  #e0e0e2;
-    font-family:'Trebuchet MS';
+
     font-size: 30px;
     color:#028090;
     margin-left: 100px;
@@ -519,8 +508,7 @@ body main section.black div.price-black
 
 body main section.black div.bottom-black
     {
-    background-color:  #e2e0e0;
-    font-family:'Trebuchet MS';
+
     margin-top: 10px;
     width: center;
     margin-left: 100px;
