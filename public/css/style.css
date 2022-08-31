@@ -64,9 +64,9 @@ main section.section-1{
 main section.section-1 img{
     display: block;
     margin: 5% auto;
-    width: 30%;
-    height: 30%;
-    border: 2px solid #b3b3b3;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #d1d1d1;
     border-radius: 20px;
 }
 
@@ -222,7 +222,9 @@ main section.section-4 p{
     color: #0a2342 ;
 }
 
-main section.section-4 div{
+
+
+main section.section-4 div.valoracion{
     background-color: rgb(246, 246, 246);
     border: 2px solid #b3b3b3;
     border-radius: 10px;
@@ -234,13 +236,23 @@ main section.section-4 div{
     padding: 5%;
 }
 
+main section.section-4 div.valoracion .stars{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 3px auto;
+
+}
+
 main section.section-4 div p.foto-valoracion{
     color: white;
     font-size: 25px;
     background-color: #755497;
     border: #755497 1px solid;
     border-radius: 50%;
-    width: 15%;
+    width: 40px;
     margin: 0px auto;
 }
 
@@ -854,12 +866,36 @@ footer div.foto-redes{
         padding: 10px;
         color: white;
     }
-    
+
+    /* SECTION 4 */
+
+    main section.section-4 div.section-valoracion{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    main section.section-4 div.section-valoracion i.flecha{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0.3;
+        color: #473383;
+    }
 }
 
 /* TABLET */
 
 @media (min-width: 672px){
+
+    main section.section-1 img{
+        width: 300px;
+        height: 300px;
+    }
 
     /* CARRITO */
 
@@ -944,7 +980,6 @@ footer div.foto-redes{
         margin: 10px;
     }
 
-
 }
 
 
@@ -1012,8 +1047,9 @@ footer div.foto-redes{
     }
 
     main section.section-1 img{
+        width: 350px ;
+        height: 350px;
         margin: 0px;
-        width: 35%;
     }
 
     main section.section-1 div.description-1{
@@ -1199,6 +1235,12 @@ footer div.foto-redes{
 /* DESKTOP */
 
 @media (min-width: 1269px){
+
+    main section.section-1 img{
+        width: 400px;
+        height: 400px;
+    }
+
 
     main section.section-3 div.pasos{
 
