@@ -229,9 +229,9 @@ main section.section-4 p{
     color: #0a2342 ;
 }
 
+/* valoracion 1 */
 
-
-main section.section-4 div.valoracion{
+section.section-4 div.valoracion-1{
     background-color: rgb(246, 246, 246);
     border: 2px solid #b3b3b3;
     border-radius: 10px;
@@ -243,7 +243,7 @@ main section.section-4 div.valoracion{
     padding: 5%;
 }
 
-main section.section-4 div.valoracion .stars{
+section.section-4 .valoracion-1 .stars{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -253,7 +253,7 @@ main section.section-4 div.valoracion .stars{
 
 }
 
-main section.section-4 div p.foto-valoracion{
+section.section-4 .valoracion-1 p.foto-valoracion{
     color: white;
     font-size: 25px;
     background-color: #755497;
@@ -262,6 +262,75 @@ main section.section-4 div p.foto-valoracion{
     width: 40px;
     margin: 0px auto;
 }
+
+/* valoracion 2 */
+
+section.section-4 div.valoracion-2{
+    background-color: rgb(246, 246, 246);
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}   
+
+section.section-4 .valoracion-2 .stars{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 3px auto;
+
+}
+
+section.section-4 .valoracion-2 p.foto-valoracion{
+    color: white;
+    font-size: 25px;
+    background-color: #755497;
+    border: #755497 1px solid;
+    border-radius: 50%;
+    width: 40px;
+    margin: 0px auto;
+}
+
+/* valoracion 3 */
+
+section.section-4 div.valoracion-3{
+    background-color: rgb(246, 246, 246);
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}   
+
+section.section-4 .valoracion-3 .stars{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 3px auto;
+
+}
+
+section.section-4 .valoracion-3 p.foto-valoracion{
+    color: white;
+    font-size: 25px;
+    background-color: #755497;
+    border: #755497 1px solid;
+    border-radius: 50%;
+    width: 40px;
+    margin: 0px auto;
+}
+
 
 /* CREA TU CV */
 
@@ -895,6 +964,20 @@ footer div.foto-redes{
     }
 }
 
+@media (max-width: 672px){
+
+    /* SECTION 4*/
+
+    section.section-4 div.valoracion-2{
+        display: none;
+    }
+
+    section.section-4 div.valoracion-3{
+        display: none;
+    }
+
+}
+
 /* TABLET */
 
 @media (min-width: 672px){
@@ -953,6 +1036,17 @@ footer div.foto-redes{
         width: 10%;
         padding: 2% 0%;
     }
+
+    /* SECTION 4*/
+
+    section.section-4 div.valoracion-1{
+        width: 30%;
+    }
+
+    section.section-4 div.valoracion-2{
+        width: 30%;
+    }
+
     
 }
 
@@ -986,6 +1080,10 @@ footer div.foto-redes{
     header section div.logo-name{
         margin: 10px;
     }
+
+    section.section-4 div.valoracion-3{
+        display: none;
+    }   
 
 }
 
@@ -1139,7 +1237,17 @@ footer div.foto-redes{
         flex-direction: column;
     }
 
-    main section.section-4 div.valoracion{
+    section.section-4 div.valoracion-1{
+        width: 20%;
+        padding: 3%;
+    }
+
+    section.section-4 div.valoracion-2{
+        width: 20%;
+        padding: 3%;
+    }
+
+    section.section-4 div.valoracion-3{
         width: 20%;
         padding: 3%;
     }
