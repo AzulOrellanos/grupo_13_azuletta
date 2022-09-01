@@ -336,13 +336,26 @@ section.section-4 .valoracion-3 p.foto-valoracion{
 
 /* CV SILVER*/
 
+main .titulo-packfav h2{
+    color: #0a2342;
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 0px;
+}
+
 body main section.silver {
     margin: 10px 0px;
     text-align: center;
     box-sizing: border-box;
     background-color: white;
-    border: 2px solid #490b88;
+    border: 3px solid white;
     border-radius: 10px;
+    height: 750px;
+    box-shadow: 0px 0px 10px #aa95bf;
+}
+
+body main section.silver:hover{
+    border:3px solid #490b88;
 }
 
 body main section.silver div.titulo-silver
@@ -382,42 +395,65 @@ body main section.silver div.bottom-silver input
     background-color: #490b88;
     color: white;
     border:#490b88;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-top: 10px;
-    width: center;
+    width: 45%;
     margin: 10px auto;
-    padding: 5px;
+    padding: 10px;
 
 }
 
 main section.silver img{
-    background-color: rgb(246, 246, 246);
-    width: 30%;
-    height: auto;
-    margin: 5px auto;
+    width: 50%;
+    margin: 0px auto;
+}
+
+section.silver div ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0%;
+    margin: 20px 0px;
+}
+
+section.silver div ul li{
+    margin: 0px auto;
+    padding: 10px;
+}
+
+section.silver div ul li.back-funcion{
+    width: 80%;
+    background-color: #d3d1d8;
+    border: 1px solid #d3d1d8;
+    border-radius: 2px;
+
 }
 
 /* CV GOLD */
 
 body main section.gold {
-    margin: 10px 0px;
+    margin: 50px 0px;
     text-align: center;
     box-sizing: border-box;
     background-color: white;
-    border: 2px solid #490b88;
+    border: 3px solid white;
     border-radius: 10px;
+    height: 750px;
+    box-shadow: 0px 0px 10px #aa95bf;
+}
+
+body main section.gold:hover{
+    border:3px solid #490b88;
 }
 
 body main section.gold div.titulo-gold
     {
 
-        font-size:15px ;
-        text-align: center;
-        font-style: bold;
-        color:#490b88;
-        margin: 0px auto;
+    font-size:15px ;
+    text-align: center;
+    font-style: bold;
+    color:#490b88;
+    margin: 0px auto;
         
-    
 }
 
 body main section.gold div.description-gold
@@ -445,19 +481,37 @@ body main section.gold div.bottom-gold input
 background-color: #490b88;
 color: white;
 border:#490b88;
-border-radius: 5px;
+border-radius: 15px;
 margin-top: 10px;
-width: center;
+width: 45%;
 margin: 10px auto;
-padding: 5px;
+padding: 10px;
 
 }
 
 main section.gold img{
-    background-color: rgb(246, 246, 246);
-    width: 30%;
-    height: auto;
-    margin: 5px auto;
+    width: 50%;
+    margin: 0px auto;
+}
+
+section.gold div ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0%;
+    margin: 20px 0px;
+}
+
+section.gold div ul li{
+    margin: 0px auto;
+    padding: 10px;
+}
+
+section.gold div ul li.back-funcion{
+    width: 80%;
+    background-color: #d3d1d8;
+    border: 1px solid #d3d1d8;
+    border-radius: 2px;
+
 }
 
 /* CV BLACK */
@@ -468,8 +522,14 @@ body main section.black {
     text-align: center;
     box-sizing: border-box;
     background-color: white;
-    border: 2px solid #490b88;
+    border: 3px solid white;
     border-radius: 10px;
+    height: 750px;
+    box-shadow: 0px 0px 10px #aa95bf;
+}
+
+body main section.black:hover{
+    border:3px solid #490b88;
 }
 
 body main section.black div.titulo-black {
@@ -505,25 +565,38 @@ body main section.black div.bottom-black input {
     background-color: #490b88;
     color: white;
     border:#490b88;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-top: 10px;
-    width: center;
+    width: 45%;
     margin: 10px auto;
-    padding: 5px;
-
+    padding: 10px;
 }
 
 main section.black img {
 
-    background-color: rgb(246, 246, 246);
-    width: 30%;
-    height: auto;
-    margin: 5px auto;
+    width: 50%;
+    margin: 0px auto;
 }
 
+section.black div ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0%;
+    margin: 20px 0px;
+}
 
+section.black div ul li{
+    margin: 0px auto;
+    padding: 10px;
+}
 
+section.black div ul li.back-funcion{
+    width: 80%;
+    background-color: #d3d1d8;
+    border: 1px solid #d3d1d8;
+    border-radius: 2px;
 
+}
 
 /* CARRITO */
 
@@ -1002,8 +1075,10 @@ footer div.foto-redes{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        width: 85%;
+        margin: 0px auto;
 
     }
 
