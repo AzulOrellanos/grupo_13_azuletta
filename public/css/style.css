@@ -65,10 +65,9 @@ main section.section-1{
 main section.section-1 img{
     display: block;
     margin: 5% auto;
-    width: 200px;
-    height: 200px;
-    border: 2px solid #d1d1d1;
-    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+
 }
 
 main section.section-1 h3{
@@ -143,7 +142,7 @@ main section.section-3 div.paso-1{
 main section.section-3 div.paso-1 p.numero-1{
     color: #0a2342;
     font-size: 25px;
-    padding: 5%;
+    padding: 3%;
     background-color: #fbfbfb;
     border: 2px solid #e3dafa;
     box-shadow: 0px 0px 5px #a798ce;
@@ -169,7 +168,7 @@ main section.section-3 div.paso-2{
 main section.section-3 div.paso-2 p.numero-2{
     color: #0a2342;
     font-size: 25px;
-    padding: 5%;
+    padding: 3%;
     background-color: #fbfbfb;
     border: 2px solid #e3dafa;
     box-shadow: 0px 0px 5px #a798ce;
@@ -195,7 +194,7 @@ main section.section-3 div.paso-3{
 main section.section-3 div.paso-3 p.numero-3{
     color: #0a2342;
     font-size: 25px;
-    padding: 5%;
+    padding: 3%;
     background-color: #fbfbfb;
     border: 2px solid #e3dafa;
     box-shadow: 0px 0px 5px #a798ce;
@@ -208,6 +207,8 @@ main section.section-3 div.paso-3 p.numero-3{
 /* SECTION 4 */
 
 main section.section-4{
+    background-color: #dfdee1;
+    padding: 4% 0% 2%;
     margin-top: 10%;
     margin-bottom: 10%;
 }
@@ -259,7 +260,7 @@ section.section-4 .valoracion-1 p.foto-valoracion{
     background-color: #755497;
     border: #755497 1px solid;
     border-radius: 50%;
-    width: 40px;
+    width: 45px;
     margin: 0px auto;
 }
 
@@ -293,7 +294,7 @@ section.section-4 .valoracion-2 p.foto-valoracion{
     background-color: #755497;
     border: #755497 1px solid;
     border-radius: 50%;
-    width: 40px;
+    width: 45px;
     margin: 0px auto;
 }
 
@@ -327,7 +328,7 @@ section.section-4 .valoracion-3 p.foto-valoracion{
     background-color: #755497;
     border: #755497 1px solid;
     border-radius: 50%;
-    width: 40px;
+    width: 45px;
     margin: 0px auto;
 }
 
@@ -1029,7 +1030,10 @@ footer div.foto-redes{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
+        margin: 0px auto;  
+        
     }
 
     main section.section-4 div.section-valoracion i.flecha{
@@ -1063,8 +1067,8 @@ footer div.foto-redes{
 @media (min-width: 672px){
 
     main section.section-1 img{
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
     }
 
 
@@ -1258,7 +1262,7 @@ footer div.foto-redes{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
-        width: 90%;
+        width: 80%;
         margin: 60px auto;
 
     }
@@ -1497,8 +1501,8 @@ footer div.foto-redes{
 @media (min-width: 1269px){
 
     main section.section-1 img{
-        width: 400px;
-        height: 400px;
+        width: 450px;
+        height: 450px;
     }
 
 
