@@ -100,9 +100,9 @@ main section.section-2{
 
 main section.section-2 img{
     display: block;
-    margin: 0px auto;
-    width: 500px;
-    height: 400px;
+    margin: 5px auto;
+    width: 330px;
+    height: 215px;
 }
 
 main section.section-2 h3{
@@ -148,14 +148,14 @@ main section.section-3 div.paso-1{
 }
 
 main section.section-3 div.paso-1 p.numero-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #0a2342;
-    font-size: 25px;
-    padding: 3%;
     background-color: #fbfbfb;
     border: 2px solid #e3dafa;
     box-shadow: 0px 0px 5px #a798ce;
     border-radius: 50%;
-    width: 50px;
     margin: 0px auto;
     font-weight: bold;
 }
@@ -174,14 +174,14 @@ main section.section-3 div.paso-2{
 }
 
 main section.section-3 div.paso-2 p.numero-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #0a2342;
-    font-size: 25px;
-    padding: 3%;
     background-color: #fbfbfb;
     border: 2px solid #e3dafa;
     box-shadow: 0px 0px 5px #a798ce;
     border-radius: 50%;
-    width: 50px;
     margin: 0px auto;
     font-weight: bold;
 }
@@ -200,16 +200,17 @@ main section.section-3 div.paso-3{
 }
 
 main section.section-3 div.paso-3 p.numero-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #0a2342;
-    font-size: 25px;
-    padding: 3%;
     background-color: #fbfbfb;
     border: 2px solid #e3dafa;
     box-shadow: 0px 0px 5px #a798ce;
     border-radius: 50%;
-    width: 50px;
     margin: 0px auto;
     font-weight: bold;
+    text-align: center;
 }
 
 /* SECTION 4 */
@@ -926,6 +927,31 @@ footer div.foto-redes{
         flex-grow: 0.2;
     }
 
+    section.section-3 div.paso-1 p.numero-1{
+        font-size: 20px;
+        width: 45px;
+        height: 45px;
+
+    }
+
+    section.section-3 div.paso-2 p.numero-2{
+        font-size: 20px;
+        width: 45px;
+        height: 45px;
+    }
+
+    section.section-3 div.paso-3 p.numero-3{
+        font-size: 23px;
+        width: 45px;
+        height: 45px;
+
+    }
+
+
+
+
+
+
     main .box-padre {
 
         display: flex;
@@ -1074,6 +1100,12 @@ footer div.foto-redes{
     main section.section-1 img{
         width: 400px;
         height: 400px;
+    }
+
+    main section.section-2 img{
+        width: 550px ;
+        height: 380px;
+        margin: 20px auto;
     }
 
 
@@ -1277,9 +1309,15 @@ footer div.foto-redes{
     }
 
     main section.section-1 img{
-        width: 350px ;
-        height: 350px;
+        width: 380px ;
+        height: 415px;
         margin: 0px;
+    }
+
+    main section.section-2 img{
+        width: 720px ;
+        height: 445px;
+        margin: 20px auto;
     }
 
     main section.section-1 div.description-1{
@@ -1326,6 +1364,9 @@ footer div.foto-redes{
 
     section.section-3 div.paso-1 p.numero-1{
         position: absolute;
+        font-size: 23px;
+        width: 50px;
+        height: 50px;   
         left: 85px;
         bottom: 160px;
     }
@@ -1339,6 +1380,9 @@ footer div.foto-redes{
 
     section.section-3 div.paso-2 p.numero-2{
         position: absolute;
+        font-size: 23px;
+        width: 50px;
+        height: 50px;
         left: 85px;
         bottom: 160px;
     }
@@ -1352,6 +1396,9 @@ footer div.foto-redes{
 
     section.section-3 div.paso-3 p.numero-3{
         position: absolute;
+        font-size: 23px;
+        width: 50px;
+        height: 50px;
         left: 85px;
         bottom: 160px;
     }
@@ -1547,8 +1594,13 @@ footer div.foto-redes{
 @media (min-width: 1269px){
 
     main section.section-1 img{
-        width: 450px;
-        height: 450px;
+        width: 440px;
+        height: 500px;
+    }
+
+    main section.section-2 img{
+        width: 920px;
+        height: 600px;
     }
 
 
@@ -1563,6 +1615,9 @@ footer div.foto-redes{
     }
 
     section.section-3 div.paso-1 p.numero-1{
+        font-size: 27px;
+        width: 55px;
+        height: 55px;
         left: 100px;
         bottom: 170px;
     }
@@ -1573,6 +1628,9 @@ footer div.foto-redes{
     }
 
     section.section-3 div.paso-2 p.numero-2{
+        font-size: 27px;
+        width: 55px;
+        height: 55px;
         left: 100px;
         bottom: 170px;
     }
@@ -1583,6 +1641,9 @@ footer div.foto-redes{
     }
 
     section.section-3 div.paso-3 p.numero-3{
+        font-size: 27px;
+        width: 55px;
+        height: 55px;
         left: 100px;
         bottom: 170px;
 
@@ -1611,5 +1672,96 @@ footer div.foto-redes{
         height: 750px;    
     }
 
+
+}
+
+@media (min-width: 1800px){
+
+    body header section.header-bar {
+        font-size: 120%;
+     }
+
+    body header section.header-bar img{
+        width: 125px;
+        height: 90px;
+    }
+
+    main section.section-1 img{
+        width: 640px;
+        height: 700px;
+    }
+
+    main section.section-1 .description-1{
+        font-size: 160%;
+    }
+
+    main section.section-2 img{
+        width: 1250px;
+        height: 850px;
+    }
+
+    main section.section-2 .description-2{
+        font-size: 160%;
+    }
+
+
+
+    main section.section-3 h3{
+        font-size: 200%;
+    }
+
+    main section.section-3 div.pasos{
+
+        width: 100%;
+    }
+    
+    main section.section-3 div.paso-1{
+        font-size: 25px;
+        width: 380px;
+        height: 300px;
+    }
+
+    section.section-3 div.paso-1 p.numero-1{
+        font-size: 35px;
+        width: 70px;
+        height: 70px;
+        left: 160px;
+        bottom: 270px;
+    }
+
+    main section.section-3 div.paso-2{
+        font-size: 25px;
+        width: 380px;
+        height: 300px;
+    }
+
+    section.section-3 div.paso-2 p.numero-2{
+        font-size: 35px;
+        width: 70px;
+        height: 70px;
+        left: 160px;
+        bottom: 270px;
+    }
+
+    main section.section-3 div.paso-3{
+        font-size: 25px;
+        width: 380px;
+        height: 300px;
+    }
+
+    section.section-3 div.paso-3 p.numero-3{
+        font-size: 35px;
+        width: 70px;
+        height: 70px;
+        left: 160px;
+        bottom: 270px;
+
+    }
+
+    main section.section-4 h3{
+
+        font-size: 160%;
+
+    }
 
 }
