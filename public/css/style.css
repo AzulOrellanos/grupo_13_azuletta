@@ -20,6 +20,7 @@ body header section img{
     height: 60px;
 }
 
+
 header section div.logo-name{
     display: block;
     text-align: center;
@@ -95,6 +96,13 @@ main section.section-1 div.boton button{
 main section.section-2{
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+main section.section-2 img{
+    display: block;
+    margin: 0px auto;
+    width: 500px;
+    height: 400px;
 }
 
 main section.section-2 h3{
@@ -351,7 +359,6 @@ body main section.silver {
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    height: 750px;
     box-shadow: 0px 0px 10px #aa95bf;
 }
 
@@ -438,7 +445,6 @@ body main section.gold {
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    height: 750px;
     box-shadow: 0px 0px 10px #aa95bf;
 }
 
@@ -525,7 +531,6 @@ body main section.black {
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    height: 750px;
     box-shadow: 0px 0px 10px #aa95bf;
 }
 
@@ -1078,27 +1083,31 @@ footer div.foto-redes{
 
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        width: 85%;
+        width: 90%;
         margin: 0px auto;
 
     }
 
     .box-padre section.silver {
 
-        width: 30%;
+        width: 80%;
+        height: auto;
     }
 
     .box-padre section.gold {
 
-        width: 30%;
+        width: 80%;
+        height: auto;
+    
     }
 
     .box-padre section.black {
 
-        width: 30%;
+        width: 80%;
+        height: auto;
     }
 
 
@@ -1489,8 +1498,45 @@ footer div.foto-redes{
         border: 2px solid #aca1cb;
         box-shadow: 0px 0px 10px #aca1cb;
     }
+
+    /* crea tu cv */
     
+    main .box-padre {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0px auto;
+
+    }
+
+    .box-padre section.silver {
+
+        width: 30%;
+        height: 680px;
+        padding: 10px 0px;
+    }
+
+    .box-padre section.gold {
+
+        width: 30%;
+        height: 680px;
+        padding: 10px 0px;
+
     
+    }
+
+    .box-padre section.black {
+
+        width: 30%;
+        height: 680px;
+        padding: 10px 0px;
+
+    }
+
 
 
 
@@ -1540,6 +1586,29 @@ footer div.foto-redes{
         left: 100px;
         bottom: 170px;
 
+    }
+
+    /* crea tu cv */
+    
+    
+    .box-padre section.silver {
+    
+        width: 30%;
+        height: 750px;
+
+    }
+    
+    .box-padre section.gold {
+    
+        width: 30%;
+        height: 750px;
+        
+    }
+    
+    .box-padre section.black {
+
+        width: 30%;
+        height: 750px;    
     }
 
 
