@@ -48,3 +48,16 @@ app.get('/carrito', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/carrito.html'))
 });
 
+// Se obtiene la vista de SOBRE NOSOTROS
+
+app.get('/sobrenosotros', (req, res) => {
+
+    res.sendFile(path.join(__dirname, '/views/sobrenosotros.html'))
+});
+
+// Se obtiene la vista de CONTACTO
+
+app.get('/contacto', (req, res) => {
+
+    res.sendFile(path.join(__dirname, '/views/contacto.html'))
+});

@@ -891,6 +891,144 @@ main section div.producto-black div p.eliminar{
     color: #530086;
 }
 
+/* SOBRE NOSOTROS */
+
+main .sobre-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0%;
+}
+
+main .sobre-nosotros h2{
+
+    text-align: center;
+}
+
+main .sobre-nosotros .nosotros-description p{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+main .sobre-nosotros .nosotros-description img{
+    display: flex;
+    margin: 70px auto;
+    width: 70%;
+    height: 70%;
+}
+
+main .sobre-nosotros .nuestra-mision{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 7% 0%;
+}
+
+main .sobre-nosotros .nuestra-mision .mision-foto{
+    
+    width: 30%;
+}
+
+main .sobre-nosotros .nuestra-mision div.mision-description{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+}
+
+main .sobre-nosotros .nuestra-mision div.mision-description p{
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+main .sobre-nosotros .equipos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #d2d9ee;
+    width: 70%;
+    font-size: 25px;
+    padding: 3% 0%;
+    margin: 3% 0% 10%;
+    
+}
+
+main .sobre-nosotros div.img-sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 30px auto;
+}
+
+main .sobre-nosotros div.img-sponsors img{
+    width: 200px;
+    height: 170px;
+    margin: 10px;
+}
+
+/* CONTACTO */
+
+main section.contacto h1{
+    text-align: center;
+    background-color: #530086;
+    color: white;
+    padding: 8%;
+}
+
+main .contacto .form-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+    width: 70%;
+    margin: 5% auto;
+    padding: 5%;
+}
+
+main .contacto .form-contacto input {
+    border: 2px solid #bfbfbf;
+    background: transparent;
+    height: 30px;
+    width: 70%;
+    font-size: 16px;
+    margin: 5px 0px 10px;
+    
+}
+
+main .contacto .form-contacto textarea{
+    border: 2px solid #bfbfbf;
+    background: transparent;
+    font-size: 16px;
+    margin: 5px 0px 10px;
+}
+
+main .contacto .form-contacto button{
+    background-color: #490b88;
+    border: #490b88;
+    border-radius: 15px;
+    color: white;
+    margin: 10px auto;
+    padding: 1% 3%;
+    width: 30%;
+}
+
 
 
 /* FOOTER */
@@ -921,6 +1059,7 @@ footer div.foto-redes{
        flex-direction: row;
        justify-content: space-between;
        align-items: center;
+       margin: 10px 0px;
     }
 
     header section div.logo-name{
@@ -1584,8 +1723,22 @@ footer div.foto-redes{
 
     }
 
+    /* CONTACTO */
 
+    main .contacto .form-contacto .cont-nombre, 
+    .cont-apellido,.cont-email, .cont-telefono, .cont-asunto {
+        width: 50%;
+        
+    }
 
+    main .contacto .form-contacto .cont-comentario {
+        width: 100%;
+    }
+
+    .cont-comentario textarea{
+        width: 100%;
+        
+    }
 
 }
 
@@ -1687,7 +1840,7 @@ footer div.foto-redes{
     }
 
     main section.section-1 img{
-        width: 640px;
+        width: 620px;
         height: 700px;
     }
 
