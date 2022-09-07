@@ -8,7 +8,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Se levanta el servidor
 
 app.listen(3100, () => {
-    console.log('Servidor levantado en el puerto 3100');
+    console.log('Servidor levantado');
+    console.log('http://localhost:3100');
 });
 
 

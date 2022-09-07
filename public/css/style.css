@@ -1033,18 +1033,22 @@ main .contacto .form-contacto button{
 
 /* FOOTER */
 
+footer div.section-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
 footer div p{
     text-align: center;
     width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 5% 0%;
+    padding: 3% 0% 2%;
     border-top: #a798ce 2px solid;
 }
 
-footer div.foto-redes{
-    margin: 20px 0px;
-    text-align: center;
+footer div.redes-img img{
+    width: 35px;
 }
 
 /* MEDIAS QUERIES */
