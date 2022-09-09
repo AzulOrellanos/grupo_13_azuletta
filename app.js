@@ -5,13 +5,13 @@ const app = express();
 
 // Indicamos a Express el template engine EJS
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '/src/views'));
 
 // Indicamos la carpeta de recursos estaticos
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-// Se onbtienen la vistas
+// Se obtienen las vistas
 
 app.get('/', (req, res) => {
 
