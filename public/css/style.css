@@ -86,8 +86,8 @@ main section.section-1 div.boton button{
     color: white;
     background-color: #0a2342;
     border: #0a2342 2px solid;
-    border-radius: 5px;
-    padding: 1%;
+    border-radius: 15px;
+    padding: 2%;
     margin: 5px 0px;
 }
 
@@ -341,20 +341,49 @@ section.section-4 .valoracion-3 p.foto-valoracion{
     margin: 0px auto;
 }
 
+/* SECTION 5 */
+
+main .section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #755497;
+    padding: 5%;
+    margin: 10% 0%;
+}
+
+main .section-5 p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+main .section-5 button{
+    color: #490b88;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 40px 0px;
+    padding: 1%;
+    text-align: center;
+}
 
 /* CREA TU CV */
-
-/* CV SILVER*/
 
 main .titulo-packfav h2{
     color: #0a2342;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin: 50px 0px;
 }
 
+/* CV SILVER*/
+
+
 body main section.silver {
-    margin: 10px 0px;
+
     text-align: center;
     box-sizing: border-box;
     background-color: white;
@@ -440,7 +469,7 @@ section.silver div ul li.back-funcion{
 /* CV GOLD */
 
 body main section.gold {
-    margin: 50px 0px;
+    
     text-align: center;
     box-sizing: border-box;
     background-color: white;
@@ -526,7 +555,6 @@ section.gold div ul li.back-funcion{
 
 body main section.black {
 
-    margin: 10px 0px;
     text-align: center;
     box-sizing: border-box;
     background-color: white;
@@ -984,7 +1012,7 @@ main .sobre-nosotros div.img-sponsors img{
 
 main section.contacto h1{
     text-align: center;
-    background-color: #530086;
+    background-color: #755497;
     color: white;
     padding: 8%;
 }
@@ -1090,11 +1118,6 @@ footer div.redes-img img{
 
     }
 
-
-
-
-
-
     main .box-padre {
 
         display: flex;
@@ -1105,12 +1128,11 @@ footer div.redes-img img{
         }
 
     main .box-padre .silver, .gold, .black {
-        width: 80%;
+        width: 70%;
+        margin: 5% 0%;
     }
 
    
-
-
     
     /* CARRITO */
 
@@ -1268,21 +1290,21 @@ footer div.redes-img img{
 
     .box-padre section.silver {
 
-        width: 80%;
-        height: auto;
+        width: 60%;
+        margin: 3% 0%;
+
     }
 
     .box-padre section.gold {
 
-        width: 80%;
-        height: auto;
-    
+        width: 60%;
+        margin: 3% 0%;
     }
 
     .box-padre section.black {
 
-        width: 80%;
-        height: auto;
+        width: 60%;
+        margin: 3% 0%;
     }
 
 
@@ -1697,7 +1719,7 @@ footer div.redes-img img{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: stretch;
         width: 90%;
         margin: 0px auto;
 
@@ -1706,14 +1728,12 @@ footer div.redes-img img{
     .box-padre section.silver {
 
         width: 30%;
-        height: 680px;
         padding: 10px 0px;
     }
 
     .box-padre section.gold {
 
         width: 30%;
-        height: 680px;
         padding: 10px 0px;
 
     
@@ -1722,7 +1742,6 @@ footer div.redes-img img{
     .box-padre section.black {
 
         width: 30%;
-        height: 680px;
         padding: 10px 0px;
 
     }
@@ -1807,26 +1826,28 @@ footer div.redes-img img{
     }
 
     /* crea tu cv */
-    
+
+    main .titulo-packfav h2{
+
+        font-size: 25px;
+    }
+
     
     .box-padre section.silver {
     
         width: 30%;
-        height: 750px;
 
     }
     
     .box-padre section.gold {
     
         width: 30%;
-        height: 750px;
         
     }
     
     .box-padre section.black {
 
         width: 30%;
-        height: 750px;    
     }
 
 
