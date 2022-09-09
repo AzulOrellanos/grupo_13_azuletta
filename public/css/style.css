@@ -15,6 +15,7 @@ body{
 
 
 body header section img{
+
     margin: 0px 10px;
     width: 80px;
     height: 60px;
@@ -22,36 +23,66 @@ body header section img{
 
 
 header section div.logo-name{
+
     display: block;
     text-align: center;
-
+    width: 10%;
 }
 
 header div.logo-name h3{
+
     color: #490b88;
     display: block;
     margin: 0px 5px;
 }
 
 header section nav {
+    display: flex;
+    justify-content: space-around;
     margin: 20px 0px;
 }
 
 header section nav ul{
+
     list-style-type: none;
     padding: 0%;
-    width: 100%;
+    width: 60%;
 }
 
 header section nav ul li{
+
     color: #0a2342;
     font-weight: bold;
     padding: 0px 10px;
 }
 
 header section nav ul li a{
+
     text-decoration: none;
 }
+
+header section nav .buttons-nav{
+
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+header section nav .buttons-nav button{
+
+    background-color: #530086;
+    border: #530086 2px solid;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin: 0px 5px;
+}
+
+header section nav .buttons-nav button a{
+
+    color: white;
+    text-decoration: none;
+}
+
 
 /* HOME */
 
@@ -385,7 +416,6 @@ main .titulo-packfav h2{
 body main section.silver {
 
     text-align: center;
-    box-sizing: border-box;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
@@ -393,11 +423,11 @@ body main section.silver {
 }
 
 body main section.silver:hover{
+
     border:3px solid #490b88;
 }
 
-body main section.silver div.titulo-silver
-    {
+body main section.silver div.titulo-silver {
 
     font-size:15px ;
     text-align: center;
@@ -407,29 +437,26 @@ body main section.silver div.titulo-silver
     
 }
 
-body main section.silver div.description-silver
-    {
+body main section.silver div.description-silver {
 
     color:#755497;
     margin: auto;
-        width: 80%;
-    
-
+    width: 80%;
+    font-weight: bold;
 
 }
 
-body main section.silver div.price-silver
-    {
+body main section.silver div.price-silver {
 
     font-size: 25px;
     color:#0a2342;
     margin: 5px auto;
     margin-top: 10px;
-
+    font-weight: bold;
 }
 
-body main section.silver div.bottom-silver input
-    {
+body main section.silver div.bottom-silver input {
+
     background-color: #490b88;
     color: white;
     border:#490b88;
@@ -442,11 +469,13 @@ body main section.silver div.bottom-silver input
 }
 
 main section.silver img{
+
     width: 50%;
     margin: 0px auto;
 }
 
 section.silver div ul{
+
     text-decoration: none;
     list-style-type: none;
     padding: 0%;
@@ -454,12 +483,14 @@ section.silver div ul{
 }
 
 section.silver div ul li{
+
+    width: 80%;
     margin: 0px auto;
     padding: 10px;
 }
 
 section.silver div ul li.back-funcion{
-    width: 80%;
+
     background-color: #d3d1d8;
     border: 1px solid #d3d1d8;
     border-radius: 2px;
@@ -471,7 +502,6 @@ section.silver div ul li.back-funcion{
 body main section.gold {
     
     text-align: center;
-    box-sizing: border-box;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
@@ -499,6 +529,7 @@ body main section.gold div.description-gold
     color:#755497;
     margin: auto;
     width: 80%;
+    font-weight: bold;
     
 }
 
@@ -509,6 +540,7 @@ body main section.gold div.price-gold
     color:#0a2342;
     margin: 5px auto;
     margin-top: 10px;
+    font-weight: bold;
 
 }
 
@@ -539,12 +571,14 @@ section.gold div ul{
 }
 
 section.gold div ul li{
+
+    width: 80%;
     margin: 0px auto;
     padding: 10px;
 }
 
 section.gold div ul li.back-funcion{
-    width: 80%;
+
     background-color: #d3d1d8;
     border: 1px solid #d3d1d8;
     border-radius: 2px;
@@ -556,7 +590,6 @@ section.gold div ul li.back-funcion{
 body main section.black {
 
     text-align: center;
-    box-sizing: border-box;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
@@ -583,6 +616,7 @@ body main section.black div.description-black {
     color:#755497;
     margin: auto;
     width: 80%;
+    font-weight: bold;
 
 }
 
@@ -592,6 +626,7 @@ body main section.black div.price-black {
     color:#0a2342;
     margin: 5px auto;
     margin-top: 10px;
+    font-weight: bold;  
 
 }
 
@@ -614,6 +649,7 @@ main section.black img {
 }
 
 section.black div ul{
+
     text-decoration: none;
     list-style-type: none;
     padding: 0%;
@@ -621,16 +657,17 @@ section.black div ul{
 }
 
 section.black div ul li{
+
     margin: 0px auto;
     padding: 10px;
+    width: 80%;
 }
 
 section.black div ul li.back-funcion{
-    width: 80%;
+
     background-color: #d3d1d8;
     border: 1px solid #d3d1d8;
     border-radius: 2px;
-
 }
 
 /* CARRITO */
@@ -1850,6 +1887,19 @@ footer div.redes-img img{
         width: 30%;
     }
 
+    body main section.black div.titulo-silver, 
+    div.titulo-gold, div.titulo-black{
+
+        font-size: 130%;
+    }
+
+    body main section.black div.description-b, div.description-g,
+    div.description-s{
+
+        font-size: 120%;
+    }
+
+
 
 }
 
@@ -1938,8 +1988,15 @@ footer div.redes-img img{
 
     main section.section-4 h3{
 
+
         font-size: 160%;
 
     }
+
+    main .titulo-packfav h2{
+
+        font-size: 30px;
+    }
+
 
 }
