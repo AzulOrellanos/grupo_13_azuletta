@@ -16,7 +16,7 @@ Mantener una comunicación más fluida, evaluar la posibilidad de acordar un dí
 
 Mejorar la organización y distribución de las tareas entre los integrantes del equipo para llegar a tiempo con la fecha de entrega del sprint. 
 
-Actualizar los textos con la info de la marca, para reemplzar el texto random. Actualización de logos. 
+Actualizar los textos con la info de la marca, para reemplazar el texto random. Actualización de logos. 
 
 Agregar los controladores y actualizar las rutas. 
 
