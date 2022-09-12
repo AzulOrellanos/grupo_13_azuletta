@@ -38,3 +38,7 @@ https://www.cvmaker.com.ar/ *Popularidad & Facilidad de uso.*
 
 https://www.cvwizard.es/ *Valoraciones de usuarios.*
 
+
+📄 **Tablero de trabajo:**
+
+ https://trello.com/invite/espaciodetrabajodeuser88649102/e427e52845d8a74c7d9be4317d3f8434
