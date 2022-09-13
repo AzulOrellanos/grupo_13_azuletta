@@ -48,3 +48,5 @@ Puesta en común de las actualización gráficas realizadas.
 
 Creacion de los controllers y routes.
 
+Creacion de la vista productDetails. Haciendo su ruta dinamica para que muestre un producto segun el id.
+

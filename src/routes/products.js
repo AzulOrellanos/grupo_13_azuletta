@@ -9,5 +9,8 @@ router.get('/creatucv', productController.creaTuCv);
 /* Carrito */
 router.get('/carrito', productController.carrito)
 
+/* Product Details */
+router.get('/productdetails/:id', productController.productDetails);
+
 
 module.exports = router;

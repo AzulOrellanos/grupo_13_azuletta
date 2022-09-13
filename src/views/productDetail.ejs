@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Azuletta</title>
+</head>
+<body>
+    <header>
+        <section class="header-bar">
+            <div class="logo-name">
+                <img src="/images/azuletta_logo_header.png" alt="logo">
+                <h3>AZULETTA</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href = "/" >Home</a></li>
+                    <li><a href = "/creatucv" >Crea tu CV</a></li>
+                    <li><a href = "/sobrenosotros" >Sobre Nosotros</a></li>
+                    <li><a href = "/contacto" >Contacto</a></li>
+                </ul>
+                <br>
+                <div class="buttons-nav">
+                    <button><a href = "/login" >Ingresar</a></button>
+                    <button><a href = "/registrarse" >Registarse</a></button>
+                </div>   
+            </nav>
+            <div class="burger">
+                <i class="fas fa-bars burger-bars"></i>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <div class="titulo-packfav">
+            <h2>TU PACK FAVORITO</h2>
+        </div>
+        <div class="box-padreee">
+            <section class="cvvvv">
+
+                <article>
+                    <img src ="/images/CVBlack.png" alt="CV Black">
+
+                    <div class="titulo-cvvvv">
+                        <h2><%= cv.nombre %></h2>
+                    </div>
+                    <div class= "description-b">
+                        <div class="description-cvvvv">
+                        <p><%= cv.descripcion %> </p>
+                        </div>
+                        <div class="price-cvvvv">
+                        <p><%= cv.precio %></p>
+                        </div>
+                    </div>
+                    <div class="bottom-cvvvv">
+                        <input type="submit" name="add-to-cart" value="Agregar al carrito" title="Estas a un solo click de potenciar tu CV!">
+                    </div>
+                    <div>
+                        <ul>
+                            <li><%= cv.funciones[0] %></li>
+                            <li class="back-funcion"><%= cv.funciones[1] %></li>
+                            <li><%= cv.funciones[2] %></li>
+                            <li class="back-funcion"><%= cv.funciones[3] %></li>
+                            <li><%= cv.funciones[4] %></li>
+                            <li class="back-funcion"><%= cv.funciones[5] %></li>
+                            <li><%= cv.funciones[6] %></li>
+                            <li class="back-funcion"><%= cv.funciones[7] %></li>
+                        </ul>
+                    </div> 
+
+                </article>
+
+            </section>
+            <section class="all-cv">
+                <p>hola</p>
+            </section>
+        </div>
+    
+
+    </main>
+
+    <footer>
+        <div class="section-redes">
+            <p>REDES</p>
+            <div class="redes-img">
+                <img src="/images/tw.png" alt="">
+                <img src="/images/insta.png" alt="">
+                <img src="/images/linkedin.png" alt="">
+                <img src="/images/facebook.png" alt="">
+                <img src="/images/reddir.png" alt="">
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

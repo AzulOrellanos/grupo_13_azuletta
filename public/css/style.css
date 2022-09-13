@@ -83,6 +83,122 @@ header section nav .buttons-nav button a{
     text-decoration: none;
 }
 
+/* PRODUCT DETAILS (No terminado!)*/
+
+
+
+main div section.all-cv{
+    display: flex;
+    width: 60%;
+    background-color: white;
+}
+
+main .box-padreee {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 90%;
+    margin: 0px auto;
+
+}
+
+
+
+
+
+body main section.cvvvv {
+
+    text-align: center;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aa95bf;
+    width: 30%;
+}
+
+body main section.cvvvv:hover{
+    border:3px solid #490b88;
+}
+
+body main section.cvvvv div.titulo-cvvvv {
+
+    font-size:15px ;
+    text-align: center;
+    font-style: bold;
+    color:#490b88;
+    margin: 0px auto;
+        
+    
+}
+
+body main section.cvvvv div.description-cvvvv {
+    
+    color:#755497;
+    margin: auto;
+    width: 80%;
+    font-weight: bold;
+
+}
+
+body main section.cvvvv div.price-cvvvv {
+
+    font-size: 25px;
+    color:#0a2342;
+    margin: 5px auto;
+    margin-top: 10px;
+    font-weight: bold;  
+
+}
+
+body main section.cvvvv div.bottom-cvvvv input {
+
+    background-color: #490b88;
+    color: white;
+    border:#490b88;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 45%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+main section.cvvvv img {
+
+    width: 50%;
+    margin: 0px auto;
+}
+
+section.cvvvv div ul{
+
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0%;
+    margin: 20px 0px;
+}
+
+section.cvvvv div ul li{
+
+    margin: 0px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+section.cvvvv div ul li.back-funcion{
+
+    background-color: #d3d1d8;
+    border: 1px solid #d3d1d8;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
 
 /* HOME */
 
