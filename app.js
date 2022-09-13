@@ -3,6 +3,10 @@ const path = require('path');
 
 const app = express();
 
+const indexRouter = require('./src/routes/index');
+const userRouter = require('./src/routes/user');
+const productRouter = require('./src/routes/products')
+
 // Indicamos a Express el template engine EJS
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/src/views'));
@@ -13,47 +17,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Se obtienen las vistas
 
-app.get('/', (req, res) => {
+app.use('/', indexRouter);
 
-    res.render('home')
-});
+app.use('/', userRouter);
 
-
-app.get('/creatucv', (req, res) => {
-
-    res.render('creatucv')
-});
-
-
-app.get('/login', (req, res) => {
-
-    res.render('login')
-});
-
-
-app.get('/registrarse', (req, res) => {
-
-    res.render('registrarse')
-});
-
-
-app.get('/carrito', (req, res) => {
-
-    res.render('carrito')
-});
-
-
-app.get('/sobrenosotros', (req, res) => {
-
-    res.render('sobrenosotros')
-});
-
-
-app.get('/contacto', (req, res) => {
-
-    res.render('contacto')
-});
-
+app.use('/', productRouter)
 
 // Se levanta el servidor
 

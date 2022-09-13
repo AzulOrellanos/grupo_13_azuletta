@@ -122,6 +122,11 @@ main section.section-1 div.boton button{
     margin: 5px 0px;
 }
 
+main section.section-1 div.boton button a{
+    color: white;
+    text-decoration: none;
+}
+
 /* SECTION 2 */
 
 main section.section-2{
@@ -399,6 +404,10 @@ main .section-5 button{
     margin: 40px 0px;
     padding: 1%;
     text-align: center;
+}
+
+main .section-5 button a{
+    text-decoration: none;
 }
 
 /* CREA TU CV */
