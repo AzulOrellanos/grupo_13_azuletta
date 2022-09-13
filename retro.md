@@ -1,6 +1,5 @@
 **Sprint 2:**
 
-Lecciones aprendidas:
 
 Avisar sobre los cambios que se realicen dentro del CSS para evitar errores durante la actualización. 
 
@@ -11,8 +10,6 @@ Implementar mejoras a nivel visual, sobre colores y tipografías, jugar con esti
 Mantener una comunicación más fluida, evaluar la posibilidad de acordar un día fijo en el equipo para poder sumarnos y terminar de definir detalles priorizando llegar con las entregas en tiempo y forma. 
 
 **Sprint 3:**
-
-12/09: 
 
 Mejorar la organización y distribución de las tareas entre los integrantes del equipo para llegar a tiempo con la fecha de entrega del sprint. 
 

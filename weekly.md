@@ -44,3 +44,7 @@ Revisión del feedback del sprint 1 y 2.
 
 Puesta en común de las actualización gráficas realizadas. 
 
+**13/09**
+
+Creacion de los controllers y routes.
+
