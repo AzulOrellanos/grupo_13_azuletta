@@ -41,4 +41,4 @@ https://www.cvwizard.es/ *Valoraciones de usuarios.*
 
 📄 **Tablero de trabajo:**
 
- https://trello.com/invite/espaciodetrabajodeuser88649102/e427e52845d8a74c7d9be4317d3f8434
+https://trello.com/invite/b/hiKGvYNG/55d8b4c3a80d668a2974c95d7d6682e2/azuletta
