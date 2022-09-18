@@ -15,5 +15,8 @@ router.get('/product/details/:id', productController.productDetails);
 /* Product Create */
 router.get('/product/create', productController.productCreate);
 
+/* Product Edit */
+router.get('/product/edit', productController.productEdit);
+
 
 module.exports = router;

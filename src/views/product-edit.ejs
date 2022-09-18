@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("./partials/head.ejs") %> 
+<body>
+
+    <header>
+
+        <section class="header-bar">
+            <div class="logo-name">
+                <img src="/images/azuletta_logo_header.png" alt="logo">
+                <h3>AZULETTA</h3>
+            </div>
+            <div class="burger">
+                <i class="fas fa-bars burger-bars"></i>
+            </div>
+        </section>
+    
+    </header>
+
+    <main>
+        <section class="product-create">
+            <img src="/images/edit.png" alt="">
+            <div class="product-create-right">
+            <h1>Editar Producto</h1>
+            <form action="/product/create" method="POST" class="form-product-create">
+                <div>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                    </div>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div>
+                    <div>
+                        <label for="descripcion">Descripcion</label>
+                    </div>
+                    <input type="text" name="descripcion" id="descripcion" required>
+                </div>
+                <div>
+                    <div>
+                        <label for="precio">Precio</label>
+                    </div>
+                    <input type="text" name="precio" id="precio" required>
+                </div>
+                <div>
+                    <div>
+                        <label for="funciones">Funciones</label>
+                    </div>
+                    <input type="text" name="funciones" id="funciones" required>
+                </div>
+                <div class="product-create-img">
+                    <div>
+                        <label for="imagen">Imagen</label>
+                    </div>
+                    <input type="file" name="imagen" id="imagen " required>
+                </div>
+                <div>
+                    <button type="submit">Editar</button>
+                </div>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

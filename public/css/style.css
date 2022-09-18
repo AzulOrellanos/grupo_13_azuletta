@@ -214,6 +214,7 @@ section.cvvvv div ul li.back-funcion{
 
 /* Product Create*/
 
+
 main section.product-create{
     display: flex;
     flex-direction: row;
@@ -224,6 +225,7 @@ main section.product-create{
 main section.product-create .product-create-right{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-grow: 0.5;
     text-align: center;
 }
@@ -888,7 +890,7 @@ main section.carrito h3{
 main section div.producto-silver{
     
     margin: 20px 10px;
-    border: 2px solid #b3b3b3;
+    border-bottom: 2px solid #c9c9c9;
     background-color: #fff;
 }
 
@@ -913,7 +915,6 @@ main section div.producto-silver ul li{
 
 
 main section div.producto-silver div p.eliminar{
-    
     color: red;
 }
 
@@ -923,7 +924,7 @@ main section div.producto-silver div p.eliminar{
 main section div.producto-gold{
     
     margin: 20px 10px;
-    border: 2px solid #b3b3b3;
+    border-bottom: 2px solid #c9c9c9;
     background-color: #fff;
 }
 
@@ -958,7 +959,7 @@ main section div.producto-gold div p.eliminar{
 main section div.producto-black{
     
     margin: 20px 10px;
-    border: 2px solid #b3b3b3;
+    border-bottom: 2px solid #c9c9c9;
     background-color: #fff;
 }
 
@@ -1077,7 +1078,7 @@ main section div.producto-black div p.eliminar{
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    padding: 70px 50px;
+    padding: 55px 50px;
     border: 2px solid #473383;
     border-radius: 35px;
 }
