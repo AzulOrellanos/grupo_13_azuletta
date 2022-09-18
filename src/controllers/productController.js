@@ -12,6 +12,9 @@ const controller = {
             return cv.id == req.params.id
         })
         res.render('productDetail', { cv: cvEncontrado})
+    },
+    productCreate: (req, res) => {
+        res.render('product-create')
     }
 }
 

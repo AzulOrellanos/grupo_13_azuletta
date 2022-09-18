@@ -10,7 +10,10 @@ router.get('/creatucv', productController.creaTuCv);
 router.get('/carrito', productController.carrito)
 
 /* Product Details */
-router.get('/productdetails/:id', productController.productDetails);
+router.get('/product/details/:id', productController.productDetails);
+
+/* Product Create */
+router.get('/product/create', productController.productCreate);
 
 
 module.exports = router;

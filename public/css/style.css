@@ -7,9 +7,6 @@
 body{
 
     background: #FFFFFF;
-    background: -webkit-radial-gradient(top left, #FFFFFF, #D5D0E3);
-    background: -moz-radial-gradient(top left, #FFFFFF, #D5D0E3);
-    background: radial-gradient(to bottom right, #FFFFFF, #D5D0E3);
     font-family:'Trebuchet MS';
 }
 
@@ -215,6 +212,64 @@ section.cvvvv div ul li.back-funcion{
     border-radius: 2px;
 }
 
+/* Product Create*/
+
+main section.product-create{
+    display: flex;
+    flex-direction: row;
+    justify-content :center;
+    margin: 5% 0%;
+}
+
+main section.product-create .product-create-right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.5;
+    text-align: center;
+}
+
+main section.product-create img{
+    width: 40%;
+}
+
+main section.product-create h1{
+    font-size: 30px;
+    color: #0a2342;
+    margin: 3% 0%;
+}
+
+main .product-create .form-product-create{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3% 0%;
+}
+
+main .product-create .form-product-create div{
+    width: 100%;
+}
+
+main .product-create .form-product-create label, input{
+    margin: 10px 0px;
+}
+
+main .product-create .form-product-create  input{
+    padding: 10px;
+    width: 50%;
+    background-color: white;
+    border: #b3b3b3 1px solid;
+    border-radius: 5px;
+}
+
+main .product-create .form-product-create button{
+    background-color: #473383;
+    border: #473383;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 0px;
+    width: 30%;
+    margin: 25px 0px;
+}
 
 
 
