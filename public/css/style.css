@@ -280,11 +280,25 @@ main .product-create .form-product-create button{
     margin: 25px 0px;
 }
 
+/* 404 */
 
+main section.not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
-
-
-
+main section.not-found a button{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(113, 169, 228);
+    border: rgb(113, 169, 228);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 20px
+}
 
 /* HOME */
 

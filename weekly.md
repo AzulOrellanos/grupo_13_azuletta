@@ -63,3 +63,5 @@ Base de datos con curriculums.json
 **19/09**
 
 Se agregó funcionalidad a productCreate y productEdit.
+
+Se agregó la vista 404 Not Found.

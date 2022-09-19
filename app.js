@@ -30,6 +30,12 @@ app.use('/user', userRouter);
 
 app.use('/product', productRouter)
 
+// 404 Not Found
+
+app.use((req, res, next) => {
+    res.status(404).render('not-found')
+})
+
 // Se levanta el servidor
 
 app.listen(3100, () => {
