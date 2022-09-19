@@ -50,3 +50,12 @@ Creacion de los controllers y routes.
 
 Creacion de la vista productDetails. Haciendo su ruta dinamica para que muestre un producto segun el id.
 
+**17/09**
+
+Creacion de la vista productCreate y productEdit.
+
+Se agregaron los archivos parciales.
+
+**18/09**
+
+Base de datos con curriculums.json

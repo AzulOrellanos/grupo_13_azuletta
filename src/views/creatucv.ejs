@@ -10,113 +10,38 @@
             <h2>SELECCIONA TU PACK FAVORITO</h2>
         </div>
         <div class="box-padre">
-         <section class="silver">
-
-            <article>
-                <img src ="/images/CVSilver.png" alt="CV Silver">
-                <div class="titulo-silver">
-                    <h2>CV Silver</h2>
-                </div>
-                <div class="description-s">
-                    <div class="description-silver">
-                        <p>Diseño clásico</p>
-                    </div>
-                    <div class="price-silver">
-                        <p>$500</p>
-                    </div>
-                </div>
-
-                    <div class="bottom-silver">
-                
-                        <input type="submit" name="add-to-cart" value="Agregar al carrito" title="Estas a un solo click de potenciar tu CV!">
-                 
-                </div>
-                <div>
-                    <ul>
-                        <li>Crear 1 curriculum.</li>
-                        <li class="back-funcion">Acesso a todas las plantillas silver.</li>
-                        <li>Asesoria de profesionales.</li>
-                        <li  class="back-funcion">Entre 24-48 horas disponible para descargarlo desde su cuenta personal.</li>
-                        <li>Cuenta Azuletta durante 3 meses para crear y editar sin limites.</li>
-                    </ul>
-                </div>   
-            </article>
-
-        </section>
-
-        <section class="gold">
-
-            <article>
-
-            <img src ="/images/CVGold.png" alt="CV Gold">
-            <div class="titulo-gold">
-                <h1>CV Gold</h1>
-            </div>
-            <div class="description-g">
-                <div class="description-gold">
-                    <p>Diseño innovador</p>
-                </div>
-                <div class="price-gold">
-                    <p>$1000</p>
-                </div>
-            </div>
-            <div class="bottom-gold">
+            <section class="packs">
+                <% curriculum.forEach(element => { %>
     
-                <input type="submit" name="add-to-cart" value="Agregar al carrito" title="Estas a un solo click de potenciar tu CV!">
-            
-            </div>
-            <div>
-                <ul>
-                    <li>Crear 1 curriculum.</li>
-                    <li class="back-funcion">Acceso a todas las plantillas gold.</li>
-                    <li>Asesoria de profesionales.</li>
-                    <li  class="back-funcion">Ofertas de trabajos coincidentes.</li>
-                    <li>Entre 24-48 horas disponible para descargarlo desde su cuenta personal.</li>
-                    <li class="back-funcion">Cuenta Azuletta durante 3 meses para crear y editar sin limites.</li>
+                    <article class="silver">
+                        <img src ="<%= element.logo %>" alt="CV Silver">
+                        <div class="titulo-silver">
+                            <h2><%= element.nombre %></h2>
+                        </div>
+                        <div class="description-s">
+                            <div class="description-silver">
+                                <p><%= element.descripcion %></p>
+                            </div>
+                            <div class="price-silver">
+                                <p><%= element.precio %></p>
+                            </div>
+                        </div>
+                        <div class="bottom-silver">
+                            <input type="submit" name="add-to-cart" value="Agregar al carrito">
+                        </div>
+                        <div>
+                            <ul class="funciones">
+                                <% for (let i = 0; i < element.funciones.length; i++) {%>
 
-                </ul>
-            </div> 
+                                    <li class="back-funcion"><%=element.funciones[i]%></li>
 
-            </article>
+                                <% } %>
+                            </ul>
+                        </div>   
+                    </article>
 
-        </section>
-
-
-        <section class="black">
-
-            <article>
-                <img src ="/images/CVBlack.png" alt="CV Black">
-
-                <div class="titulo-black">
-                    <h2>CV Black</h2>
-                </div>
-                <div class= "description-b">
-                    <div class="description-black">
-                    <p>Diseño de alto impacto</p>
-                    </div>
-                    <div class="price-black">
-                    <p>$1500</p>
-                    </div>
-                </div>
-                <div class="bottom-black">
-                    <input type="submit" name="add-to-cart" value="Agregar al carrito" title="Estas a un solo click de potenciar tu CV!">
-                </div>
-                <div>
-                    <ul>
-                        <li>Crear 1 curriculum.</li>
-                        <li class="back-funcion">Acceso a todas las plantillas black.</li>
-                        <li>Asesoria de profesionales.</li>
-                        <li class="back-funcion">Ofertas de trabajos coincidentes.</li>
-                        <li>Seguimiento de solicitudes de empleo.</li>
-                        <li class="back-funcion">Incluye carta de presentación personalizada.</li>
-                        <li>Entre 24-48 horas disponible para descargarlo desde su cuenta personal.</li>
-                        <li class="back-funcion">Cuenta Azuletta durante 3 meses para crear y editar sin limites.</li>
-                    </ul>
-                </div> 
-
-            </article>
-
-        </section>
+                <% }); %> 
+            </section>
         </div>
 
     </main>

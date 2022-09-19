@@ -30,15 +30,12 @@
                         <input type="submit" name="add-to-cart" value="Agregar al carrito" title="Estas a un solo click de potenciar tu CV!">
                     </div>
                     <div>
-                        <ul>
-                            <li><%= cv.funciones[0] %></li>
-                            <li class="back-funcion"><%= cv.funciones[1] %></li>
-                            <li><%= cv.funciones[2] %></li>
-                            <li class="back-funcion"><%= cv.funciones[3] %></li>
-                            <li><%= cv.funciones[4] %></li>
-                            <li class="back-funcion"><%= cv.funciones[5] %></li>
-                            <li><%= cv.funciones[6] %></li>
-                            <li class="back-funcion"><%= cv.funciones[7] %></li>
+                        <ul class="funciones">
+                            <% for (let i = 0; i < cv.funciones.length; i++) {%>
+
+                                <li class="back-funcion"><%=cv.funciones[i]%></li>
+
+                            <% } %>
                         </ul>
                     </div> 
 
@@ -47,15 +44,11 @@
             </section>
             <section class="all-cv">
                 <div class="estilos">
-                    <img src="<%= cv.estilos[0] %>" alt="">
-                    <img src="<%= cv.estilos[1] %>" alt="">
-                    <img src="<%= cv.estilos[2] %>" alt="">
-                    <img src="<%= cv.estilos[3] %>" alt="">
-                    <img src="<%= cv.estilos[4] %>" alt="">
-                    <img src="<%= cv.estilos[5] %>" alt="">
-                    <img src="<%= cv.estilos[6] %>" alt="">
-                    <img src="<%= cv.estilos[7] %>" alt="">
-                    <img src="<%= cv.estilos[8] %>" alt="">
+                    <% for (let i = 0; i < cv.estilos.length; i++) {%>
+
+                        <img src="<%=cv.estilos[i]%>">
+
+                    <% } %>
                 </div>
             </section>
         </div>

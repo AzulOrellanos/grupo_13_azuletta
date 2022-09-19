@@ -1,14 +1,23 @@
-const products = require('./curriculums');
+const fs = require('fs');
+const path = require('path');
+
+function findAll() {
+    const dataJson = fs.readFileSync(path.join(__dirname, '../data/curriculums.json'));
+    const data = JSON.parse(dataJson);
+    return data
+}
 
 const controller = {
     creaTuCv: (req, res) => {
-        res.render('creatucv')
+        const data = findAll();
+        res.render('creatucv', {curriculum: data})
     },
     carrito: (req, res) => {
         res.render('carrito')
     },
     productDetails: (req, res) => {
-        let cvEncontrado = products.find( cv => {
+        const data = findAll();
+        let cvEncontrado = data.find( cv => {
             return cv.id == req.params.id
         })
         res.render('productDetail', { cv: cvEncontrado})
