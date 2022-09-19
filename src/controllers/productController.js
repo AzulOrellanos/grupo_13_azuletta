@@ -7,6 +7,11 @@ function findAll() {
     return data
 }
 
+function create(data){
+    const dataString = JSON.stringify(data, null, 5);
+    fs.writeFileSync(path.join(__dirname, '../data/curriculums.json'), dataString)
+}
+
 const controller = {
     creaTuCv: (req, res) => {
         const data = findAll();
@@ -22,10 +27,27 @@ const controller = {
         })
         res.render('productDetail', { cv: cvEncontrado})
     },
-    productCreate: (req, res) => {
+    create: (req, res) => {
         res.render('product-create')
     },
-    productEdit: (req, res) => {
+    store: (req, res) => {
+        const data = findAll();
+
+        const newProduct = {
+            id: data.length + 1,
+            nombre: req.body.nombre,
+            descripcion: req.body.descripcion,
+            precio: "$" + req.body.precio,
+            funciones: [req.body.funciones]
+        }
+
+        data.push(newProduct);
+
+        create(data);
+
+        res.redirect("/product/creatucv") 
+    },
+    edit: (req, res) => {
         res.render('product-edit')
     }
 }

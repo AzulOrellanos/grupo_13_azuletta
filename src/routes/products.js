@@ -10,13 +10,14 @@ router.get('/creatucv', productController.creaTuCv);
 router.get('/carrito', productController.carrito)
 
 /* Product Details */
-router.get('/product/details/:id', productController.productDetails);
+router.get('/details/:id', productController.productDetails);
 
 /* Product Create */
-router.get('/product/create', productController.productCreate);
+router.get('/create', productController.create);
+router.post('/create', productController.store);
 
 /* Product Edit */
-router.get('/product/edit', productController.productEdit);
+router.get('/edit', productController.edit);
 
 
 module.exports = router;

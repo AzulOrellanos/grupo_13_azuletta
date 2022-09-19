@@ -5,7 +5,11 @@ const app = express();
 
 const indexRouter = require('./src/routes/index');
 const userRouter = require('./src/routes/user');
-const productRouter = require('./src/routes/products')
+const productRouter = require('./src/routes/products');
+
+// Capturar informacion formularios
+app.use(express.urlencoded({ extended:false }));
+app.use(express.json());
 
 // Indicamos a Express el template engine EJS
 app.set('view engine', 'ejs');
@@ -14,14 +18,13 @@ app.set('views', path.join(__dirname, '/src/views'));
 // Indicamos la carpeta de recursos estaticos
 app.use(express.static(path.join(__dirname, 'public')));
 
-
 // Se obtienen las vistas
 
 app.use('/', indexRouter);
 
-app.use('/', userRouter);
+app.use('/user', userRouter);
 
-app.use('/', productRouter)
+app.use('/product', productRouter)
 
 // Se levanta el servidor
 

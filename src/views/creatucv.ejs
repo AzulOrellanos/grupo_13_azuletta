@@ -26,8 +26,8 @@
                                 <p><%= element.precio %></p>
                             </div>
                         </div>
-                        <div class="bottom-silver">
-                            <input type="submit" name="add-to-cart" value="Agregar al carrito">
+                        <div class="button-plantilla">
+                            <a href="<%=element.buttonPlantillas%>"><button>Ver Plantillas</button></a>
                         </div>
                         <div>
                             <ul class="funciones">
@@ -43,9 +43,7 @@
                 <% }); %> 
             </section>
         </div>
-        <div class="button-plantilla">
-            <a href="/product/details/1"><button>VER PLANTILLAS</button></a>
-        </div>
+
 
     </main>
 
