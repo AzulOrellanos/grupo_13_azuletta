@@ -7,7 +7,7 @@ function findAll() {
     return data
 }
 
-function create(data){
+function writeFile(data){
     const dataString = JSON.stringify(data, null, 5);
     fs.writeFileSync(path.join(__dirname, '../data/curriculums.json'), dataString)
 }
@@ -43,12 +43,34 @@ const controller = {
 
         data.push(newProduct);
 
-        create(data);
+        writeFile(data);
 
         res.redirect("/product/creatucv") 
     },
     edit: (req, res) => {
-        res.render('product-edit')
+        const data = findAll();
+
+        let cvEncontrado = data.find( cv => {
+            return cv.id == req.params.id
+        })
+
+        res.render('product-edit', { curriculum: cvEncontrado})
+    },
+    update: (req, res) => {
+        const data = findAll();
+        
+        let cvEncontrado = data.find( cv => {
+            return cv.id == req.params.id
+        })
+
+        cvEncontrado.nombre = req.body.nombre;
+        cvEncontrado.descripcion = req.body.descripcion;
+        cvEncontrado.precio = req.body.precio;
+        cvEncontrado.funciones = [req.body.funciones];
+
+        writeFile(data);
+
+        res.redirect('/product/creatucv');
     }
 }
 
