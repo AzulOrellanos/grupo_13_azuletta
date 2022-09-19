@@ -215,6 +215,59 @@ main .all-cv .estilos img:hover {
 
 /* Product Create*/
 
+section.header-bar-create div.user-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 8%;
+    border: 2px solid #530086;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+}
+
+section.header-bar-create div.user-box p{
+    color: #530086;
+    font-size: 18px;
+}
+
+.user-logo{
+    color: #530086;
+    font-size: 120%;
+    border: #b3b2b2 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+body header section.header-bar-create{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header section div.logo-name-create{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+body header section.header-bar-create img{
+
+    margin: 0px 30px;
+    width: 120px;
+    height: 100px;
+}
+
+
+
+header div.logo-name-create h3{
+
+    color: #490b88;
+    display: block;
+    margin: 0px 5px;
+}
 
 main section.product-create{
     display: flex;
@@ -1202,6 +1255,7 @@ footer div.redes-img img{
        margin: 10px 0px;
     }
 
+
     header section div.logo-name{
         flex-grow: 0.2;
     }
@@ -1513,7 +1567,11 @@ footer div.redes-img img{
 
     section.section-4 div.valoracion-3{
         display: none;
-    }   
+    }
+    
+    section.header-bar-create div.user-box{
+        display: none;
+    }
 
 }
 
