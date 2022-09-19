@@ -82,13 +82,105 @@ header section nav .buttons-nav button a{
 
 /* PRODUCT DETAILS (No terminado!)*/
 
+main.product-detail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+body main section.cvvvv {
+    
+    text-align: center;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aa95bf;
+    width: 30%;
+    height: 100%;
+}
+
+
+body main section.cvvvv div.titulo-cvvvv {
+    
+    font-size:15px ;
+    text-align: center;
+    font-style: bold;
+    color:#490b88;
+    margin: 0px auto;
+    
+    
+}
+
+body main section.cvvvv div.description-cvvvv {
+    
+    color:#755497;
+    margin: auto;
+    width: 80%;
+    font-weight: bold;
+    
+}
+
+body main section.cvvvv div.price-cvvvv {
+
+    font-size: 25px;
+    color:#0a2342;
+    margin: 5px auto;
+    margin-top: 10px;
+    font-weight: bold;  
+
+}
+
+body main div.bottom-cvvvv input {
+
+    background-color: #490b88;
+    color: white;
+    border:#490b88;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+main section.cvvvv img {
+    
+    width: 50%;
+    margin: 0px auto;
+}
+
+section.cvvvv div ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0%;
+    margin: 20px 0px;
+}
+
+section.cvvvv div ul li{
+    
+    margin: 0px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+section.cvvvv div ul li.back-funcion{
+    
+    background-color: #dcdae2;
+    border: 1px solid #dcdae2;
+    border-radius: 2px;
+    margin: 5px 0px;
+    width: 90%;
+    padding: 10px 3px;
+}
 
 main div section.all-cv{
     display: flex;
     width: 60%;
     background-color: white;
-    border: #490b88 2px solid;
+    border: white 2px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aa95bf;
 }
 
 main .box-padreee {
@@ -116,106 +208,10 @@ main .all-cv .estilos img{
     margin: 1% 0%;
 }
 
-/*
-main .all-cv .estilos img:active {
-    position: relative;
-    z-index: 10;
-    width: 50%;
-    border: #530086;
-}
-*/
-
-
-
-body main section.cvvvv {
-
-    text-align: center;
-    background-color: white;
-    border: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #aa95bf;
-    width: 30%;
-    height: 100%;
+main .all-cv .estilos img:hover {
+    border: #473383 2px solid;
 }
 
-body main section.cvvvv:hover{
-    border:3px solid #490b88;
-}
-
-body main section.cvvvv div.titulo-cvvvv {
-
-    font-size:15px ;
-    text-align: center;
-    font-style: bold;
-    color:#490b88;
-    margin: 0px auto;
-        
-    
-}
-
-body main section.cvvvv div.description-cvvvv {
-    
-    color:#755497;
-    margin: auto;
-    width: 80%;
-    font-weight: bold;
-
-}
-
-body main section.cvvvv div.price-cvvvv {
-
-    font-size: 25px;
-    color:#0a2342;
-    margin: 5px auto;
-    margin-top: 10px;
-    font-weight: bold;  
-
-}
-
-body main section.cvvvv div.bottom-cvvvv input {
-
-    background-color: #490b88;
-    color: white;
-    border:#490b88;
-    border-radius: 15px;
-    margin-top: 10px;
-    width: 45%;
-    margin: 10px auto;
-    padding: 10px;
-}
-
-main section.cvvvv img {
-
-    width: 50%;
-    margin: 0px auto;
-}
-
-section.cvvvv div ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    list-style-type: none;
-    padding: 0%;
-    margin: 20px 0px;
-}
-
-section.cvvvv div ul li{
-
-    margin: 0px auto;
-    padding: 10px;
-    width: 80%;
-}
-
-section.cvvvv div ul li.back-funcion{
-
-    background-color: #dcdae2;
-    border: 1px solid #dcdae2;
-    border-radius: 2px;
-    margin: 5px 0px;
-    width: 90%;
-    padding: 10px 3px;
-}
 
 /* Product Create*/
 
@@ -297,8 +293,7 @@ main section.section-1{
 main section.section-1 img{
     display: block;
     margin: 5% auto;
-    width: 250px;
-    height: 250px;
+    width: 50%;
 
 }
 
@@ -355,7 +350,7 @@ main section.section-2 p{
 /* SECTION 3 */
 
 main section.section-3{
-    margin: 10% auto;
+    margin: 3% auto;
 }
 
 main section.section-3 h3{
@@ -612,6 +607,13 @@ main .section-5 button a{
 
 /* CREA TU CV */
 
+main.crea-tu-cv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 main .titulo-packfav h2{
     color: #0a2342;
     text-align: center;
@@ -635,6 +637,7 @@ body main article.silver:hover{
 
     border:3px solid #490b88;
 }
+
 
 body main article.silver div.titulo-silver {
 
@@ -709,6 +712,14 @@ article.silver div ul.funciones{
     align-items: center;
 }
 
+div.button-plantilla button{
+    background-color: #473383;
+    border: #473383;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 50px;
+}
 
 
 /* CARRITO */
@@ -1311,7 +1322,7 @@ footer div.redes-img img{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         margin: 0px auto;  
         
     }
@@ -1347,8 +1358,7 @@ footer div.redes-img img{
 @media (min-width: 672px){
 
     main section.section-1 img{
-        width: 400px;
-        height: 400px;
+        width:30%;
     }
 
     main section.section-2 img{
@@ -1552,8 +1562,7 @@ footer div.redes-img img{
     }
 
     main section.section-1 img{
-        width: 380px ;
-        height: 415px;
+        width: 35%;
         margin: 0px;
     }
 
@@ -1840,8 +1849,7 @@ footer div.redes-img img{
 @media (min-width: 1269px){
 
     main section.section-1 img{
-        width: 440px;
-        height: 500px;
+        width: 35%;
     }
 
     main section.section-2 img{
@@ -1948,8 +1956,7 @@ footer div.redes-img img{
     }
 
     main section.section-1 img{
-        width: 620px;
-        height: 700px;
+        width: 40%;
     }
 
     main section.section-1 .description-1{

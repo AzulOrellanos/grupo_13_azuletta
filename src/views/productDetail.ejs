@@ -5,7 +5,7 @@
     
     <%- include("./partials/header.ejs") %> 
 
-    <main>
+    <main class="product-detail">
         <div class="titulo-packfav">
             <h2>TU PACK FAVORITO</h2>
         </div>
@@ -25,9 +25,6 @@
                         <div class="price-cvvvv">
                         <p><%= cv.precio %></p>
                         </div>
-                    </div>
-                    <div class="bottom-cvvvv">
-                        <input type="submit" name="add-to-cart" value="Agregar al carrito" title="Estas a un solo click de potenciar tu CV!">
                     </div>
                     <div>
                         <ul class="funciones">
@@ -51,6 +48,10 @@
                     <% } %>
                 </div>
             </section>
+
+        </div>
+        <div class="bottom-cvvvv">
+            <a href="/carrito"><input type="submit" name="add-to-cart" value="Agregar al carrito"></a>
         </div>
     
 
