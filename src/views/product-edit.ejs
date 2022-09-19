@@ -22,6 +22,7 @@
             <img src="/images/edit.png" alt="">
             <div class="product-create-right">
             <h1>Editar Producto</h1>
+            <h2><%= curriculum.nombre %></h2>
             <form action="/product/edit/<%= curriculum.id %>?_method=PUT" method="POST" class="form-product-create">
                 <div>
                     <div>

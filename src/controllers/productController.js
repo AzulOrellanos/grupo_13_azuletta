@@ -66,7 +66,10 @@ const controller = {
         cvEncontrado.nombre = req.body.nombre;
         cvEncontrado.descripcion = req.body.descripcion;
         cvEncontrado.precio = req.body.precio;
-        cvEncontrado.funciones = [req.body.funciones];
+
+        let bodyFunciones = req.body.funciones;
+        let funciones = bodyFunciones.split(',');
+        cvEncontrado.funciones = funciones;
 
         writeFile(data);
 

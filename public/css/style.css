@@ -241,6 +241,12 @@ main section.product-create h1{
     margin: 3% 0%;
 }
 
+main section.product-create h2{
+    font-size: 25px;
+    color: #490b88;
+    margin: 1% 0%;
+}
+
 main .product-create .form-product-create{
     display: flex;
     flex-direction: column;
